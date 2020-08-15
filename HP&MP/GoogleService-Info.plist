@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>76179022174-7ok9mcr2i48335fph4ok9l7n2k8fplls.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.76179022174-7ok9mcr2i48335fph4ok9l7n2k8fplls</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCoCInIDL7poqExg5LJzM-Z908N6OvyuxQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>76179022174</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>bean.HP-MP</string>
+	<key>PROJECT_ID</key>
+	<string>guru2-ios-81b83</string>
+	<key>STORAGE_BUCKET</key>
+	<string>guru2-ios-81b83.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:76179022174:ios:3d0e6251304f9e1f05afcf</string>
+	<key>DATABASE_URL</key>
+	<string>https://guru2-ios-81b83.firebaseio.com</string>
+</dict>
+</plist>
