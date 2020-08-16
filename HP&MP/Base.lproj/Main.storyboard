@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--First-->
+        <!--홈-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
                 <viewController id="9pv-A4-QxB" customClass="FirstViewController" customModule="HP_MP" customModuleProvider="target" sceneMemberID="viewController">
@@ -36,13 +36,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="PQr-Ze-W5v"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="First" image="first" id="acW-dT-cKf"/>
+                    <tabBarItem key="tabBarItem" title="홈" image="house.fill" catalog="system" id="acW-dT-cKf"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="748" y="-713"/>
         </scene>
-        <!--Item-->
+        <!--멘탈-->
         <scene sceneID="Y8F-gw-c0q">
             <objects>
                 <viewController id="sHT-AB-I9B" customClass="ThirdViewController" customModule="HP_MP" customModuleProvider="target" sceneMemberID="viewController">
@@ -52,13 +52,13 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="lho-oW-bhB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="N0x-g5-O9l"/>
+                    <tabBarItem key="tabBarItem" title="멘탈" image="heart.fill" catalog="system" id="N0x-g5-O9l"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tF5-04-GtB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="748" y="731"/>
         </scene>
-        <!--Item-->
+        <!--커뮤니티-->
         <scene sceneID="zlA-ze-BN2">
             <objects>
                 <viewController id="JjT-5z-coL" customClass="BoardViewController" customModule="HP_MP" customModuleProvider="target" sceneMemberID="viewController">
@@ -149,7 +149,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="FfZ-zZ-M7M"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="err-yW-vVG"/>
+                    <tabBarItem key="tabBarItem" title="커뮤니티" image="person.3.fill" catalog="system" id="err-yW-vVG"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EKi-gK-poa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -369,7 +369,7 @@
             </objects>
             <point key="canvasLocation" x="2282.608695652174" y="1469.8660714285713"/>
         </scene>
-        <!--Second-->
+        <!--신체-->
         <scene sceneID="wg7-f3-ORb">
             <objects>
                 <viewController id="8rJ-Kc-sve" customClass="SecondViewController" customModule="HP_MP" customModuleProvider="target" sceneMemberID="viewController">
@@ -398,7 +398,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Second" image="second" id="cPa-gy-q4n"/>
+                    <tabBarItem key="tabBarItem" title="신체" image="gym-2.png" id="cPa-gy-q4n"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
@@ -426,9 +426,11 @@
         </scene>
     </scenes>
     <resources>
-        <image name="first" width="30" height="30"/>
+        <image name="gym-2.png" width="23.142856597900391" height="23.142856597900391"/>
+        <image name="heart.fill" catalog="system" width="128" height="109"/>
+        <image name="house.fill" catalog="system" width="128" height="106"/>
         <image name="pencil" catalog="system" width="128" height="113"/>
-        <image name="second" width="30" height="30"/>
+        <image name="person.3.fill" catalog="system" width="128" height="61"/>
         <image name="shift.fill" catalog="system" width="128" height="106"/>
     </resources>
 </document>
