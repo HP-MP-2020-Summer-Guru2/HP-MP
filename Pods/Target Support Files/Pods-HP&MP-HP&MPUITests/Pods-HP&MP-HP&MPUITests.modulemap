@@ -1,0 +1,6 @@
+framework module Pods_HP_MP_HP_MPUITests {
+  umbrella header "Pods-HP&MP-HP&MPUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
