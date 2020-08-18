@@ -23,6 +23,17 @@
 		77EFB8B424E9704D005D3637 /* gym.png in Resources */ = {isa = PBXBuildFile; fileRef = 77EFB8B224E9704D005D3637 /* gym.png */; };
 		8C89848B497E294FD6132DA7 /* Pods_HP_MP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4CBBF182574CADE2DB99A74 /* Pods_HP_MP.framework */; };
 		D9B7355294BC5195759A4E74 /* Pods_HP_MP_HP_MPUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EC0AFF63C9190D80C474C8A /* Pods_HP_MP_HP_MPUITests.framework */; };
+		E2B42E8C24EBA61C00B4D6AE /* ChooseHourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B42E8B24EBA61C00B4D6AE /* ChooseHourViewController.swift */; };
+		E2B42E9824EBA9D200B4D6AE /* 9.png in Resources */ = {isa = PBXBuildFile; fileRef = E2B42E8E24EBA9D200B4D6AE /* 9.png */; };
+		E2B42E9924EBA9D200B4D6AE /* 10.png in Resources */ = {isa = PBXBuildFile; fileRef = E2B42E8F24EBA9D200B4D6AE /* 10.png */; };
+		E2B42E9A24EBA9D200B4D6AE /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = E2B42E9024EBA9D200B4D6AE /* 1.png */; };
+		E2B42E9B24EBA9D200B4D6AE /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = E2B42E9124EBA9D200B4D6AE /* 7.png */; };
+		E2B42E9C24EBA9D200B4D6AE /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = E2B42E9224EBA9D200B4D6AE /* 4.png */; };
+		E2B42E9D24EBA9D200B4D6AE /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = E2B42E9324EBA9D200B4D6AE /* 6.png */; };
+		E2B42E9E24EBA9D200B4D6AE /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = E2B42E9424EBA9D200B4D6AE /* 2.png */; };
+		E2B42E9F24EBA9D200B4D6AE /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = E2B42E9524EBA9D200B4D6AE /* 5.png */; };
+		E2B42EA024EBA9D200B4D6AE /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = E2B42E9624EBA9D200B4D6AE /* 8.png */; };
+		E2B42EA124EBA9D200B4D6AE /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = E2B42E9724EBA9D200B4D6AE /* 3.png */; };
 		EE6A2ECCA2876E2D1F6E0BA1 /* Pods_HP_MPTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D49CE6DA12DD6BD0E202D1B /* Pods_HP_MPTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -72,6 +83,17 @@
 		77EFB8B124E9704D005D3637 /* gym-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "gym-2.png"; path = "Assets.xcassets/gym-2.png"; sourceTree = "<group>"; };
 		77EFB8B224E9704D005D3637 /* gym.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gym.png; path = Assets.xcassets/gym.png; sourceTree = "<group>"; };
 		C4CBBF182574CADE2DB99A74 /* Pods_HP_MP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HP_MP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2B42E8B24EBA61C00B4D6AE /* ChooseHourViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseHourViewController.swift; sourceTree = "<group>"; };
+		E2B42E8E24EBA9D200B4D6AE /* 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9.png; sourceTree = "<group>"; };
+		E2B42E8F24EBA9D200B4D6AE /* 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10.png; sourceTree = "<group>"; };
+		E2B42E9024EBA9D200B4D6AE /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		E2B42E9124EBA9D200B4D6AE /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
+		E2B42E9224EBA9D200B4D6AE /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		E2B42E9324EBA9D200B4D6AE /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		E2B42E9424EBA9D200B4D6AE /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		E2B42E9524EBA9D200B4D6AE /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		E2B42E9624EBA9D200B4D6AE /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
+		E2B42E9724EBA9D200B4D6AE /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
 		EC9FD952901E8C13F12082A4 /* Pods-HP&MP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HP&MP.release.xcconfig"; path = "Target Support Files/Pods-HP&MP/Pods-HP&MP.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -138,11 +160,13 @@
 		1554BD8424E6DC7200DF095E /* HP&MP */ = {
 			isa = PBXGroup;
 			children = (
+				E2B42E8D24EBA99300B4D6AE /* HourNumberImage */,
 				77EFB8B124E9704D005D3637 /* gym-2.png */,
 				77EFB8B224E9704D005D3637 /* gym.png */,
 				1554BD8524E6DC7200DF095E /* AppDelegate.swift */,
 				1554BD8724E6DC7200DF095E /* SceneDelegate.swift */,
 				1554BD8924E6DC7200DF095E /* FirstViewController.swift */,
+				E2B42E8B24EBA61C00B4D6AE /* ChooseHourViewController.swift */,
 				1554BD8B24E6DC7200DF095E /* SecondViewController.swift */,
 				1554BD8D24E6DC7200DF095E /* Main.storyboard */,
 				1554BD9024E6DC7200DF095E /* Assets.xcassets */,
@@ -184,6 +208,23 @@
 				5E116478A5973DB32FD478F8 /* Pods-HP&MPTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		E2B42E8D24EBA99300B4D6AE /* HourNumberImage */ = {
+			isa = PBXGroup;
+			children = (
+				E2B42E9024EBA9D200B4D6AE /* 1.png */,
+				E2B42E9424EBA9D200B4D6AE /* 2.png */,
+				E2B42E9724EBA9D200B4D6AE /* 3.png */,
+				E2B42E9224EBA9D200B4D6AE /* 4.png */,
+				E2B42E9524EBA9D200B4D6AE /* 5.png */,
+				E2B42E9324EBA9D200B4D6AE /* 6.png */,
+				E2B42E9124EBA9D200B4D6AE /* 7.png */,
+				E2B42E9624EBA9D200B4D6AE /* 8.png */,
+				E2B42E8E24EBA9D200B4D6AE /* 9.png */,
+				E2B42E8F24EBA9D200B4D6AE /* 10.png */,
+			);
+			path = HourNumberImage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,10 +336,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2B42EA024EBA9D200B4D6AE /* 8.png in Resources */,
+				E2B42E9E24EBA9D200B4D6AE /* 2.png in Resources */,
+				E2B42E9C24EBA9D200B4D6AE /* 4.png in Resources */,
+				E2B42E9A24EBA9D200B4D6AE /* 1.png in Resources */,
 				1554BD9424E6DC7200DF095E /* LaunchScreen.storyboard in Resources */,
 				1578429B24E7FD0400956C1E /* GoogleService-Info.plist in Resources */,
+				E2B42E9924EBA9D200B4D6AE /* 10.png in Resources */,
+				E2B42E9824EBA9D200B4D6AE /* 9.png in Resources */,
+				E2B42E9D24EBA9D200B4D6AE /* 6.png in Resources */,
 				77EFB8B324E9704D005D3637 /* gym-2.png in Resources */,
 				77EFB8B424E9704D005D3637 /* gym.png in Resources */,
+				E2B42EA124EBA9D200B4D6AE /* 3.png in Resources */,
+				E2B42E9B24EBA9D200B4D6AE /* 7.png in Resources */,
+				E2B42E9F24EBA9D200B4D6AE /* 5.png in Resources */,
 				1554BD9124E6DC7200DF095E /* Assets.xcassets in Resources */,
 				1554BD8F24E6DC7200DF095E /* Main.storyboard in Resources */,
 			);
@@ -430,6 +481,7 @@
 			files = (
 				1554BD8C24E6DC7200DF095E /* SecondViewController.swift in Sources */,
 				1554BD8A24E6DC7200DF095E /* FirstViewController.swift in Sources */,
+				E2B42E8C24EBA61C00B4D6AE /* ChooseHourViewController.swift in Sources */,
 				1554BD8624E6DC7200DF095E /* AppDelegate.swift in Sources */,
 				1554BD8824E6DC7200DF095E /* SceneDelegate.swift in Sources */,
 				1554BDBA24E6E41000DF095E /* ThirdViewController.swift in Sources */,
