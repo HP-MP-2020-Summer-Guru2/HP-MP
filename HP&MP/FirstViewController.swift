@@ -16,6 +16,7 @@ class FirstViewController: UIViewController {
         super.viewDidLoad()
         
         view.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(handleTapAnimations)))
+        
 
     }
     
