@@ -10,19 +10,22 @@ import UIKit
 
 class ChooseHourViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
     
-    let MAX_ARRAY_NUM = 10
+    let MAX_ARRAY_NUM = 12
     let PICKER_VIEW_HEIGHT: CGFloat = 110
     let PICKER_VIEW_COLUMN = 1
     var imageArray = [UIImage?]()
-    var imageFileName = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
+    var imageFileName = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"]
     
     
     @IBOutlet var pickerHour: UIPickerView!
     @IBOutlet var lblImageFileName: UILabel!
     @IBOutlet var imageView: UIImageView!
+    @IBOutlet var dismissButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        dismissButton.layer.cornerRadius = dismissButton.frame.size.width / 2
 
         // Do any additional setup after loading the view.
         for i in 0 ..< MAX_ARRAY_NUM {
@@ -34,7 +37,10 @@ class ChooseHourViewController: UIViewController, UIPickerViewDelegate, UIPicker
         imageView.image = imageArray[0]
     }
     
-
+    @IBAction func dismissSecondVC(_ sender: AnyObject) {
+        self.dismiss(animated: true, completion: nil)
+    }
+    
     
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return PICKER_VIEW_COLUMN

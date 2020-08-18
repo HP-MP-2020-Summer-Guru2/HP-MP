@@ -52,7 +52,6 @@
 		E240EB2124EC40CF003DD89E /* 9.png in Resources */ = {isa = PBXBuildFile; fileRef = E240EB1524EC40CF003DD89E /* 9.png */; };
 		E240EB2224EC40CF003DD89E /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = E240EB1624EC40CF003DD89E /* 2.png */; };
 		E240EB2324EC40CF003DD89E /* 11.png in Resources */ = {isa = PBXBuildFile; fileRef = E240EB1724EC40CF003DD89E /* 11.png */; };
-		E240EB2524EC5145003DD89E /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E240EB2424EC5145003DD89E /* Storage.swift */; };
 		E240EB2924EC59C1003DD89E /* exit.png in Resources */ = {isa = PBXBuildFile; fileRef = E240EB2824EC59C1003DD89E /* exit.png */; };
 		E2B42E8C24EBA61C00B4D6AE /* ChooseHourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B42E8B24EBA61C00B4D6AE /* ChooseHourViewController.swift */; };
 		EE6A2ECCA2876E2D1F6E0BA1 /* Pods_HP_MPTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D49CE6DA12DD6BD0E202D1B /* Pods_HP_MPTests.framework */; };
@@ -133,7 +132,6 @@
 		E240EB1524EC40CF003DD89E /* 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 9.png; path = ../../../9.png; sourceTree = "<group>"; };
 		E240EB1624EC40CF003DD89E /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 2.png; path = ../../../2.png; sourceTree = "<group>"; };
 		E240EB1724EC40CF003DD89E /* 11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 11.png; sourceTree = "<group>"; };
-		E240EB2424EC5145003DD89E /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
 		E240EB2824EC59C1003DD89E /* exit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = exit.png; sourceTree = "<group>"; };
 		E2B42E8B24EBA61C00B4D6AE /* ChooseHourViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseHourViewController.swift; sourceTree = "<group>"; };
 		EC9FD952901E8C13F12082A4 /* Pods-HP&MP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HP&MP.release.xcconfig"; path = "Target Support Files/Pods-HP&MP/Pods-HP&MP.release.xcconfig"; sourceTree = "<group>"; };
@@ -211,7 +209,6 @@
 				1554BD8724E6DC7200DF095E /* SceneDelegate.swift */,
 				1554BD8924E6DC7200DF095E /* FirstViewController.swift */,
 				E2B42E8B24EBA61C00B4D6AE /* ChooseHourViewController.swift */,
-				E240EB2424EC5145003DD89E /* Storage.swift */,
 				1554BD8B24E6DC7200DF095E /* SecondViewController.swift */,
 				1554BD8D24E6DC7200DF095E /* Main.storyboard */,
 				1554BD9024E6DC7200DF095E /* Assets.xcassets */,
@@ -593,7 +590,6 @@
 				1554BDBA24E6E41000DF095E /* ThirdViewController.swift in Sources */,
 				1554BDB824E6E34500DF095E /* BoardViewController.swift in Sources */,
 				15CFA8A824EC137900AB7BF9 /* BoardWriteViewController.swift in Sources */,
-				E240EB2524EC5145003DD89E /* Storage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

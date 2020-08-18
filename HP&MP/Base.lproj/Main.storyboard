@@ -112,6 +112,7 @@
                     <tabBarItem key="tabBarItem" title="홈" image="house.fill" catalog="system" id="acW-dT-cKf"/>
                     <navigationItem key="navigationItem" id="FVh-J9-p4e"/>
                     <connections>
+                        <outlet property="SleepButton" destination="a8H-IN-0Ax" id="kw9-iF-1KJ"/>
                         <outlet property="numImageView1" destination="ifI-RJ-SNf" id="zJT-es-mUo"/>
                         <outlet property="waterFlow" destination="mrC-vJ-MfD" id="llG-bP-6J6"/>
                     </connections>
@@ -168,12 +169,16 @@
                                 <rect key="frame" x="322" y="20" width="37" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="exit.png"/>
+                                <connections>
+                                    <action selector="dismissSecondVC:" destination="0aC-R3-FRg" eventType="touchUpInside" id="QOl-fV-nDG"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="Dbc-c7-VLF"/>
                     </view>
                     <connections>
+                        <outlet property="dismissButton" destination="uGU-Ve-2tv" id="Zor-nR-55V"/>
                         <outlet property="imageView" destination="deq-99-aAt" id="bbe-Kd-0Fy"/>
                         <outlet property="lblImageFileName" destination="0CQ-MF-wOu" id="jzA-q9-CP5"/>
                         <outlet property="pickerHour" destination="aYL-aA-lyA" id="66E-kc-i45"/>
