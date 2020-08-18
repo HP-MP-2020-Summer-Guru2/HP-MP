@@ -25,6 +25,9 @@
 		776D6FC324EBD8E300CD1B72 /* Asset 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 776D6FBF24EBD8E300CD1B72 /* Asset 5.png */; };
 		776D6FC624EBE00F00CD1B72 /* Asset 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 776D6FC424EBE00F00CD1B72 /* Asset 6.png */; };
 		776D6FC724EBE00F00CD1B72 /* Asset 7.png in Resources */ = {isa = PBXBuildFile; fileRef = 776D6FC524EBE00F00CD1B72 /* Asset 7.png */; };
+		1578429F24EBC0E500956C1E /* BoardWriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1578429E24EBC0E500956C1E /* BoardWriteViewController.swift */; };
+		157842A124EBCC1000956C1E /* RoundRectangle.png in Resources */ = {isa = PBXBuildFile; fileRef = 157842A024EBCC1000956C1E /* RoundRectangle.png */; };
+		157842A524EBE84E00956C1E /* BoardDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157842A424EBE84E00956C1E /* BoardDetailViewController.swift */; };
 		77EFB8B324E9704D005D3637 /* gym-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 77EFB8B124E9704D005D3637 /* gym-2.png */; };
 		77EFB8B424E9704D005D3637 /* gym.png in Resources */ = {isa = PBXBuildFile; fileRef = 77EFB8B224E9704D005D3637 /* gym.png */; };
 		8C89848B497E294FD6132DA7 /* Pods_HP_MP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4CBBF182574CADE2DB99A74 /* Pods_HP_MP.framework */; };
@@ -80,6 +83,9 @@
 		1554BDB724E6E34500DF095E /* BoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardViewController.swift; sourceTree = "<group>"; };
 		1554BDB924E6E41000DF095E /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		1578429A24E7FD0400956C1E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1578429E24EBC0E500956C1E /* BoardWriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardWriteViewController.swift; sourceTree = "<group>"; };
+		157842A024EBCC1000956C1E /* RoundRectangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RoundRectangle.png; sourceTree = "<group>"; };
+		157842A424EBE84E00956C1E /* BoardDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardDetailViewController.swift; sourceTree = "<group>"; };
 		1D49CE6DA12DD6BD0E202D1B /* Pods_HP_MPTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HP_MPTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EC0AFF63C9190D80C474C8A /* Pods_HP_MP_HP_MPUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HP_MP_HP_MPUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		46D665DE1D99752C60773507 /* Pods-HP&MP-HP&MPUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HP&MP-HP&MPUITests.debug.xcconfig"; path = "Target Support Files/Pods-HP&MP-HP&MPUITests/Pods-HP&MP-HP&MPUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -175,6 +181,9 @@
 				776D6FBB24EBD8A300CD1B72 /* MentalImage */,
 				776D6FBA24EBD88100CD1B72 /* TabImage */,
 				E2B42E8D24EBA99300B4D6AE /* HourNumberImage */,
+				157842A024EBCC1000956C1E /* RoundRectangle.png */,
+				77EFB8B124E9704D005D3637 /* gym-2.png */,
+				77EFB8B224E9704D005D3637 /* gym.png */,
 				1554BD8524E6DC7200DF095E /* AppDelegate.swift */,
 				1554BD8724E6DC7200DF095E /* SceneDelegate.swift */,
 				1554BD8924E6DC7200DF095E /* FirstViewController.swift */,
@@ -186,7 +195,10 @@
 				1554BD9224E6DC7200DF095E /* LaunchScreen.storyboard */,
 				1554BD9524E6DC7200DF095E /* Info.plist */,
 				1554BDB724E6E34500DF095E /* BoardViewController.swift */,
+				1554BDB924E6E41000DF095E /* ThirdViewController.swift */,
+				1578429E24EBC0E500956C1E /* BoardWriteViewController.swift */,
 				1578429A24E7FD0400956C1E /* GoogleService-Info.plist */,
+				157842A424EBE84E00956C1E /* BoardDetailViewController.swift */,
 			);
 			path = "HP&MP";
 			sourceTree = "<group>";
@@ -382,6 +394,7 @@
 				E2B42E9824EBA9D200B4D6AE /* 9.png in Resources */,
 				E2B42E9D24EBA9D200B4D6AE /* 6.png in Resources */,
 				77EFB8B324E9704D005D3637 /* gym-2.png in Resources */,
+				157842A124EBCC1000956C1E /* RoundRectangle.png in Resources */,
 				77EFB8B424E9704D005D3637 /* gym.png in Resources */,
 				776D6FC124EBD8E300CD1B72 /* Asset 2.png in Resources */,
 				E2B42EA124EBA9D200B4D6AE /* 3.png in Resources */,
@@ -524,6 +537,8 @@
 				E2B42E8C24EBA61C00B4D6AE /* ChooseHourViewController.swift in Sources */,
 				1554BD8624E6DC7200DF095E /* AppDelegate.swift in Sources */,
 				1554BD8824E6DC7200DF095E /* SceneDelegate.swift in Sources */,
+				157842A524EBE84E00956C1E /* BoardDetailViewController.swift in Sources */,
+				1578429F24EBC0E500956C1E /* BoardWriteViewController.swift in Sources */,
 				1554BDBA24E6E41000DF095E /* ThirdViewController.swift in Sources */,
 				1554BDB824E6E34500DF095E /* BoardViewController.swift in Sources */,
 			);
