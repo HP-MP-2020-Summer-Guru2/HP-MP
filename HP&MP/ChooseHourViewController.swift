@@ -57,7 +57,7 @@ class ChooseHourViewController: UIViewController, UIPickerViewDelegate, UIPicker
     
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         lblImageFileName.text = imageFileName[row]
-        imageView.image = imageArray[0]
+        imageView.image = imageArray[row]
         
     }
     
