@@ -11,24 +11,37 @@ import UIKit
 //2L
 class FirstViewController: UIViewController {
     var cupWater: Double = 0.5 //한 컵 기준
-    var todayWater: Double = 0.0 //시작
-    var myWater: Double? // button 누를때 마다 변함
+    var todayWater: Double = 2.0 //시작
+    var myWater: Double = 0.0 // button 누를때 마다 변하게 해야 함
+    
     @IBOutlet var numImageView1: UIImageView!
     @IBOutlet var SleepButton: UIButton!
     @IBOutlet var waterButton: UIButton!
     @IBOutlet var totalAmountOfWater: UILabel!
+    
     @IBAction func minusClick(_ sender: Any) {
-        totalAmountOfWater.text = "바뀌었는지 확인"
+        totalAmountOfWater.text = "- 바뀌었는지 확인"
+    }
+    
+    @IBAction func plusClick(_ sender: Any) {
+        totalAmountOfWater.text = "+ 바뀌었는지 확인"
     }
     
     @IBAction func waterButtonClicked(_ sender: UIButton) {
         //if문 검사하는 넣기 , todaywater == 2L면 안차오르게 or 다 마셨어요
+        if myWater == todayWater {
+            totalAmountOfWater.text = "오늘의 목표량 달성"
+        }
+        //         else           이 위치에 차오르게 하기
+        // todayWater += 0.5
+        else {
+            myWater += cupWater
+            self.waterButton.transform = CGAffineTransform(translationX: 0, y: -40)
+        }
+        
 
         
-//         else           이 위치에 차오르게 하기
-        // todayWater += 0.5
-        
-            self.waterButton.transform = CGAffineTransform(translationX: 0, y: -40)
+
         
     }
     

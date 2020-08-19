@@ -9,6 +9,7 @@
 import UIKit
 import Firebase
 
+
 class BoardViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     let db = Database.database().reference()
