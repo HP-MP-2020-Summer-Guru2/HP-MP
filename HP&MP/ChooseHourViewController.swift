@@ -65,6 +65,15 @@ class ChooseHourViewController: UIViewController, UIPickerViewDelegate, UIPicker
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         lblImageFileName.text = imageFileName[row]
         imageView.image = imageArray[row]
+//        UserDefaults.standard.set(imageFileName[row], forKey: "TimeNumber")
+//        guard let vc = self.storyboard?.instantiateViewController(identifier: "FirstViewController") as? FirstViewController else {return}
+//        print(imageFileName[row])
+////        print((UserDefaults.standard.object(forKey: "TimeNumber") ?? 1) as! String + ".png")
+////        print(type(of: ((UserDefaults.standard.object(forKey: "TimeNumber") ?? 1) as! String)))
+//        //vc.imageHolder.image = UIImage(named: imageFileName[row])
+//        vc.imageHolder.image = UIImage(named: imageFileName[row])
+//        vc.w
+
         
     }
     

@@ -91,6 +91,14 @@ class FirstViewController: UIViewController, UIImagePickerControllerDelegate, UI
 
 
     }
+    override func viewWillAppear(_ animated: Bool) {
+    print("hi")
+//         String(UserDefaults.standard.object(forKey: "TimeNumber") ?? 1) + ".png"
+        //label.image = UIImage(name: HERE)
+    }
+    override func viewDidAppear(_ animated: Bool) {
+        print("h2i")
+    }
     
 
     
