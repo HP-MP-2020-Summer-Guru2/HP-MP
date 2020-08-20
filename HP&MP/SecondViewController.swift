@@ -30,12 +30,14 @@ class SecondViewController: UIViewController {
     }
     
     
+    
+    
     @IBAction func aerobicButton(_ sender: UIButton) {
    guard let url = URL(string: "https://youtu.be/lKwZ2DU4P-A"), UIApplication.shared.canOpenURL(url) else { return }
            UIApplication.shared.open(url, options: [:], completionHandler: nil)
     }
     
-   
+    
     @IBAction func yogaButton(_ sender: UIButton) {
         guard let url = URL(string: "https://youtu.be/1W9gMxLoW6Q"), UIApplication.shared.canOpenURL(url) else { return }
                UIApplication.shared.open(url, options: [:], completionHandler: nil)
@@ -43,8 +45,7 @@ class SecondViewController: UIViewController {
     
     
     @IBAction func muscleButton(_ sender: UIButton) {
-        guard let url = URL(string: "https://youtu.be/Iaa8YNDRbhg"), UIApplication.shared.canOpenURL(url) else { return }
-               UIApplication.shared.open(url, options: [:], completionHandler: nil)
+        guard let url = URL(string: "https://youtu.be/Iaa8YNDRbhg"), UIApplication.shared.canOpenURL(url) else { return };        UIApplication.shared.open(url, options: [:], completionHandler: nil)
     }
     
     
@@ -72,6 +73,8 @@ class SecondViewController: UIViewController {
     }
     
     
+    
+    
     @IBAction func chooseAerobic(_ sender: UIButton) {
         aerobicView.isHidden = false
         stretchView.isHidden = true
@@ -80,7 +83,7 @@ class SecondViewController: UIViewController {
         scrollView.isHidden = true
         mainView.isHidden = true
     }
-    
+
     
     
     @IBAction func chooseStretch(_ sender: UIButton) {
@@ -91,17 +94,16 @@ class SecondViewController: UIViewController {
         scrollView.isHidden = true
         mainView.isHidden = true
     }
+
     
-    
-    
-    @IBAction func chooseMuscle(_ sender: UIButton) {
-        aerobicView.isHidden = true
+    @IBAction func chooseMuscle(_ sender: UIButton) {        aerobicView.isHidden = true
         stretchView.isHidden = true
         muscleView.isHidden = false
         gameView.isHidden = true
         scrollView.isHidden = true
         mainView.isHidden = true
     }
+
     
     
     
@@ -113,6 +115,4 @@ class SecondViewController: UIViewController {
         scrollView.isHidden = true
         mainView.isHidden = true
     }
-    
-  
 }

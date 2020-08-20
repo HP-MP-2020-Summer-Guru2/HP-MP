@@ -1230,21 +1230,33 @@
                                         <rect key="frame" x="297" y="14" width="57" height="39"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" image="사각형 33"/>
+                                        <connections>
+                                            <action selector="chooseGame:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="3eD-8W-Bhe"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CHL-Km-a7a" userLabel="스트레칭Button">
                                         <rect key="frame" x="103" y="14" width="88" height="39"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" image="사각형 32"/>
+                                        <connections>
+                                            <action selector="chooseStretch:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="bvQ-Cm-TDa"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Ba-FO-Ack" userLabel="유산소Button">
                                         <rect key="frame" x="21" y="14" width="74" height="40"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" image="사각형 136"/>
+                                        <connections>
+                                            <action selector="chooseAerobic:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="bEN-M5-fHf"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TOB-E3-BdC" userLabel="근육운동Button">
                                         <rect key="frame" x="199" y="14" width="90" height="39"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" image="사각형 135"/>
+                                        <connections>
+                                            <action selector="chooseMuscle:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="7lC-Bj-ZOJ"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="스트레칭" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jhr-om-RfI">
                                         <rect key="frame" x="119" y="24" width="56" height="20"/>
@@ -1278,6 +1290,9 @@
                                         <rect key="frame" x="21" y="70" width="333" height="157"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" image="Asset 6"/>
+                                        <connections>
+                                            <action selector="takwondoButton:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="N5c-fj-CLG"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="태권도" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Md-IK-jQx">
                                         <rect key="frame" x="285" y="210" width="58" height="27"/>
@@ -1287,12 +1302,15 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iKc-32-Rsk">
-                                        <rect key="frame" x="208" y="229" width="146" height="175"/>
+                                        <rect key="frame" x="208" y="260" width="146" height="175"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" image="Asset 5"/>
+                                        <connections>
+                                            <action selector="boxingButton:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="dX7-J0-JBa"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="복싱" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bgk-Ji-fTn">
-                                        <rect key="frame" x="168" y="303" width="39" height="27"/>
+                                        <rect key="frame" x="301" y="400" width="39" height="27"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1309,21 +1327,33 @@
                                         <rect key="frame" x="297" y="14" width="57" height="39"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" image="사각형 33"/>
+                                        <connections>
+                                            <action selector="chooseGame:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="r1p-H4-eZ6"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xv9-93-ZJv" userLabel="스트레칭Button">
                                         <rect key="frame" x="103" y="14" width="88" height="39"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" image="사각형 32"/>
+                                        <connections>
+                                            <action selector="chooseStretch:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="b7n-8b-oaz"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QES-70-b7f" userLabel="유산소Button">
                                         <rect key="frame" x="21" y="14" width="74" height="40"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" image="사각형 136"/>
+                                        <connections>
+                                            <action selector="chooseAerobic:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="eSd-7Q-HXY"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gEj-7P-k3h" userLabel="근육운동Button">
                                         <rect key="frame" x="199" y="14" width="90" height="39"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" image="사각형 135"/>
+                                        <connections>
+                                            <action selector="chooseMuscle:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="Tfl-Hg-m8i"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="스트레칭" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5IH-HP-fnH">
                                         <rect key="frame" x="119" y="24" width="56" height="20"/>
@@ -1357,6 +1387,9 @@
                                         <rect key="frame" x="21" y="70" width="159" height="175"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" image="Asset 4"/>
+                                        <connections>
+                                            <action selector="muscleButton:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="M4q-69-ed6"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="근력운동" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1UD-Q1-3Kj">
                                         <rect key="frame" x="90" y="210" width="77" height="27"/>
@@ -1369,6 +1402,9 @@
                                         <rect key="frame" x="197" y="70" width="157" height="175"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Button" image="Asset 10"/>
+                                        <connections>
+                                            <action selector="vallyButton:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="FS6-K4-aWv"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="복근운동" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eBj-RN-wPu">
                                         <rect key="frame" x="265" y="210" width="77" height="27"/>
@@ -1388,21 +1424,33 @@
                                         <rect key="frame" x="297" y="14" width="57" height="39"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" image="사각형 33"/>
+                                        <connections>
+                                            <action selector="chooseGame:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="ihl-Qn-Mw3"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iNs-Jv-tYi" userLabel="스트레칭Button">
                                         <rect key="frame" x="103" y="14" width="88" height="39"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" image="사각형 32"/>
+                                        <connections>
+                                            <action selector="chooseStretch:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="DkZ-a4-Ozl"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fAs-p4-ceW" userLabel="유산소Button">
                                         <rect key="frame" x="21" y="14" width="74" height="40"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" image="사각형 136"/>
+                                        <connections>
+                                            <action selector="chooseAerobic:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="242-Tz-96Z"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5om-xO-rlK" userLabel="근육운동Button">
                                         <rect key="frame" x="216" y="24" width="90" height="39"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" image="사각형 135"/>
+                                        <connections>
+                                            <action selector="chooseMuscle:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="oeD-Qu-lJM"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="스트레칭" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wkq-6k-jb2">
                                         <rect key="frame" x="119" y="24" width="56" height="20"/>
@@ -1436,6 +1484,9 @@
                                         <rect key="frame" x="21" y="70" width="159" height="175"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" image="Asset 2"/>
+                                        <connections>
+                                            <action selector="aerobicButton:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="ExW-uK-THp"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="유산소" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H0n-jY-VH2">
                                         <rect key="frame" x="108" y="210" width="58" height="27"/>
@@ -1455,21 +1506,33 @@
                                         <rect key="frame" x="297" y="14" width="57" height="39"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" image="사각형 33"/>
+                                        <connections>
+                                            <action selector="chooseGame:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="56V-Ek-FxC"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zjq-MX-VL2" userLabel="스트레칭Button">
                                         <rect key="frame" x="103" y="14" width="88" height="39"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" image="사각형 32"/>
+                                        <connections>
+                                            <action selector="chooseStretch:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="4f5-kV-yES"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uBG-RI-hoK" userLabel="유산소Button">
                                         <rect key="frame" x="21" y="14" width="74" height="40"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" image="사각형 136"/>
+                                        <connections>
+                                            <action selector="chooseAerobic:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="auA-w8-YHL"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jKE-Mq-VHa" userLabel="근육운동Button">
                                         <rect key="frame" x="199" y="14" width="90" height="39"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" image="사각형 135"/>
+                                        <connections>
+                                            <action selector="chooseMuscle:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="1DZ-aR-M6r"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="스트레칭" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uch-8s-JUe">
                                         <rect key="frame" x="119" y="23" width="56" height="20"/>
@@ -1503,6 +1566,9 @@
                                         <rect key="frame" x="197" y="70" width="157" height="175"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" image="Asset 3"/>
+                                        <connections>
+                                            <action selector="yogaButton:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="mlY-aJ-jfO"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="요가" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DES-Pr-by7">
                                         <rect key="frame" x="301" y="210" width="39" height="27"/>
@@ -1515,6 +1581,9 @@
                                         <rect key="frame" x="21" y="70" width="159" height="175"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" image="Asset 9"/>
+                                        <connections>
+                                            <action selector="stretchButton:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="Ixg-Q1-HfP"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="스트레칭" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jba-kt-gNh">
                                         <rect key="frame" x="90" y="210" width="77" height="27"/>
@@ -1524,7 +1593,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="brC-8Q-9wc">
                                 <rect key="frame" x="0.0" y="95" width="375" height="660"/>
@@ -1703,6 +1772,7 @@
                                         </constraints>
                                     </view>
                                 </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="bottom" secondItem="1Ij-NQ-ox5" secondAttribute="bottom" id="Cb9-fq-HSU"/>
                                     <constraint firstItem="1Ij-NQ-ox5" firstAttribute="leading" secondItem="brC-8Q-9wc" secondAttribute="leading" id="Cgl-LO-pbp"/>
