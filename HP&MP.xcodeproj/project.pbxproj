@@ -68,6 +68,7 @@
 		E240EB6F24EE9448003DD89E /* ChooseHour2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E240EB6E24EE9448003DD89E /* ChooseHour2ViewController.swift */; };
 		E2B42E8C24EBA61C00B4D6AE /* ChooseHourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B42E8B24EBA61C00B4D6AE /* ChooseHourViewController.swift */; };
 		E302464624EE188B004F8AEB /* BoardAsset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E302464524EE188B004F8AEB /* BoardAsset.xcassets */; };
+		E32AD0B624EEBCDC0003403F /* BoardImage in Resources */ = {isa = PBXBuildFile; fileRef = E32AD0B524EEBCDC0003403F /* BoardImage */; };
 		EE6A2ECCA2876E2D1F6E0BA1 /* Pods_HP_MPTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D49CE6DA12DD6BD0E202D1B /* Pods_HP_MPTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -162,6 +163,7 @@
 		E240EB6E24EE9448003DD89E /* ChooseHour2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseHour2ViewController.swift; sourceTree = "<group>"; };
 		E2B42E8B24EBA61C00B4D6AE /* ChooseHourViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseHourViewController.swift; sourceTree = "<group>"; };
 		E302464524EE188B004F8AEB /* BoardAsset.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = BoardAsset.xcassets; sourceTree = "<group>"; };
+		E32AD0B524EEBCDC0003403F /* BoardImage */ = {isa = PBXFileReference; lastKnownFileType = folder; name = BoardImage; path = Assets.xcassets/BoardImage; sourceTree = "<group>"; };
 		EC9FD952901E8C13F12082A4 /* Pods-HP&MP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HP&MP.release.xcconfig"; path = "Target Support Files/Pods-HP&MP/Pods-HP&MP.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -228,6 +230,7 @@
 		1554BD8424E6DC7200DF095E /* HP&MP */ = {
 			isa = PBXGroup;
 			children = (
+				E32AD0B524EEBCDC0003403F /* BoardImage */,
 				E240EAFB24EC2F4A003DD89E /* WaterImage */,
 				776D6FBB24EBD8A300CD1B72 /* MentalImage */,
 				776D6FBA24EBD88100CD1B72 /* TabImage */,
@@ -467,6 +470,7 @@
 				E240EB0224EC2F79003DD89E /* HomeBackgroung.png in Resources */,
 				775832C424EE32F400993EA9 /* Asset 12.png in Resources */,
 				E240EB5F24EE4A29003DD89E /* 7.png in Resources */,
+				E32AD0B624EEBCDC0003403F /* BoardImage in Resources */,
 				E240EB5C24EE4A29003DD89E /* 4.png in Resources */,
 				E240EB0724EC3217003DD89E /* smallSquareLine.png in Resources */,
 				E240EB2324EC40CF003DD89E /* 11.png in Resources */,
