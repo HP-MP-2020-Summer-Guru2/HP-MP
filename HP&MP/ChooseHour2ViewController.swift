@@ -1,34 +1,34 @@
 //
-//  ChooseHourViewController.swift
+//  ChooseHour2ViewController.swift
 //  HP&MP
 //
-//  Created by 윤영서 on 2020/08/18.
+//  Created by 윤영서 on 2020/08/20.
 //  Copyright © 2020 GURU2. All rights reserved.
 //
 
 import UIKit
 
-class ChooseHourViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
+class ChooseHour2ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
+   
+   let MAX_ARRAY_NUM = 12
+   let PICKER_VIEW_HEIGHT: CGFloat = 110
+   let PICKER_VIEW_COLUMN = 1
+   var imageArray = [UIImage?]()
+   var imageFileName = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"]
     
-    let MAX_ARRAY_NUM = 12
-    let PICKER_VIEW_HEIGHT: CGFloat = 110
-    let PICKER_VIEW_COLUMN = 1
-    var imageArray = [UIImage?]()
-    var imageFileName = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"]
-    
+    @IBOutlet var dismissButton: UIButton!
     @IBOutlet var pickerHour: UIPickerView!
     @IBOutlet var lblImageFileName: UILabel!
     @IBOutlet var imageView: UIImageView!
-    @IBOutlet var dismissButton: UIButton!
     
 
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         dismissButton.layer.cornerRadius = dismissButton.frame.size.width / 2
-
         // Do any additional setup after loading the view.
+        
         for i in 0 ..< MAX_ARRAY_NUM {
             let image = UIImage(named: imageFileName[i])
             imageArray.append(image)
@@ -37,12 +37,7 @@ class ChooseHourViewController: UIViewController, UIPickerViewDelegate, UIPicker
         lblImageFileName.text = imageFileName[0]
         imageView.image = imageArray[0]
     }
-    
-    @IBAction func dismissSecondVC(_ sender: AnyObject) {
-        self.dismiss(animated: true, completion: nil)
-    }
-    
-    
+  
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return PICKER_VIEW_COLUMN
     }
@@ -68,7 +63,14 @@ class ChooseHourViewController: UIViewController, UIPickerViewDelegate, UIPicker
         
     }
     
+    
+    @IBAction func dismissThirdVC(_ sender: Any) {
+                self.dismiss(animated: true, completion: nil)
+    }
+    
+    
 
+    
 
     /*
     // MARK: - Navigation
@@ -81,5 +83,3 @@ class ChooseHourViewController: UIViewController, UIPickerViewDelegate, UIPicker
     */
 
 }
-
-
