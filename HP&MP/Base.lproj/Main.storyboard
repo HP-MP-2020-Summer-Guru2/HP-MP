@@ -1219,8 +1219,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="사각형 140" translatesAutoresizingMaskIntoConstraints="NO" id="ke7-Q0-XeQ">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="사각형 140" translatesAutoresizingMaskIntoConstraints="NO" id="ke7-Q0-XeQ">
                                 <rect key="frame" x="-11" y="-29" width="421" height="153"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wMY-lb-oY9" userLabel="gameView">
                                 <rect key="frame" x="0.0" y="95" width="375" height="634"/>
@@ -1317,7 +1318,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0Eh-UC-lGg" userLabel="muscleView">
                                 <rect key="frame" x="0.0" y="95" width="375" height="634"/>
@@ -1414,7 +1415,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nsM-VA-hJI" userLabel="aerobicView">
                                 <rect key="frame" x="0.0" y="95" width="375" height="634"/>
@@ -1445,7 +1446,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5om-xO-rlK" userLabel="근육운동Button">
-                                        <rect key="frame" x="216" y="24" width="90" height="39"/>
+                                        <rect key="frame" x="199" y="24" width="90" height="39"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" image="사각형 135"/>
                                         <connections>
@@ -1496,7 +1497,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="K2A-bR-5r4" userLabel="stretchView">
                                 <rect key="frame" x="0.0" y="95" width="375" height="634"/>
@@ -1595,11 +1596,13 @@
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="brC-8Q-9wc">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="brC-8Q-9wc">
                                 <rect key="frame" x="0.0" y="95" width="375" height="660"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1Ij-NQ-ox5" userLabel="main View">
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1Ij-NQ-ox5" userLabel="main View">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="830"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GjO-Ih-mke" userLabel="겨루기Button">
                                                 <rect key="frame" x="297" y="14" width="57" height="39"/>
@@ -1617,8 +1620,9 @@
                                                     <action selector="chooseStretch:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="UXH-MB-4A6"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l6i-7W-5D6" userLabel="유산소Button">
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l6i-7W-5D6" userLabel="유산소Button">
                                                 <rect key="frame" x="21" y="14" width="74" height="40"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" image="사각형 136"/>
                                                 <connections>
                                                     <action selector="chooseAerobic:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="eaP-sp-W4F"/>
@@ -1767,18 +1771,9 @@
                                             </label>
                                         </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="830" id="dHP-bG-k8Z"/>
-                                        </constraints>
                                     </view>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="1Ij-NQ-ox5" secondAttribute="bottom" id="Cb9-fq-HSU"/>
-                                    <constraint firstItem="1Ij-NQ-ox5" firstAttribute="leading" secondItem="brC-8Q-9wc" secondAttribute="leading" id="Cgl-LO-pbp"/>
-                                    <constraint firstItem="1Ij-NQ-ox5" firstAttribute="top" secondItem="brC-8Q-9wc" secondAttribute="top" id="knR-C0-Ljo"/>
-                                    <constraint firstAttribute="trailing" secondItem="1Ij-NQ-ox5" secondAttribute="trailing" id="pvH-rt-WaK"/>
-                                </constraints>
                             </scrollView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="신체건강" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sCb-S2-VXl">
                                 <rect key="frame" x="10" y="44" width="111" height="39"/>
@@ -1789,19 +1784,6 @@
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="brC-8Q-9wc" firstAttribute="leading" secondItem="O1u-W8-tvY" secondAttribute="leading" id="2x0-hd-uCt"/>
-                            <constraint firstItem="O1u-W8-tvY" firstAttribute="leading" secondItem="ke7-Q0-XeQ" secondAttribute="leading" constant="11" id="50O-e8-BaL"/>
-                            <constraint firstItem="O1u-W8-tvY" firstAttribute="trailing" secondItem="brC-8Q-9wc" secondAttribute="trailing" id="M36-FJ-cnR"/>
-                            <constraint firstItem="l6i-7W-5D6" firstAttribute="top" secondItem="O1u-W8-tvY" secondAttribute="top" constant="65" id="PMa-og-eXk"/>
-                            <constraint firstItem="brC-8Q-9wc" firstAttribute="top" secondItem="O1u-W8-tvY" secondAttribute="top" constant="51" id="Rm8-Tz-8sM"/>
-                            <constraint firstItem="l6i-7W-5D6" firstAttribute="leading" secondItem="O1u-W8-tvY" secondAttribute="leading" constant="21" id="Y6w-OC-yxP"/>
-                            <constraint firstItem="O1u-W8-tvY" firstAttribute="bottom" secondItem="ke7-Q0-XeQ" secondAttribute="bottom" constant="605" id="avT-w6-Id5"/>
-                            <constraint firstItem="ke7-Q0-XeQ" firstAttribute="trailing" secondItem="O1u-W8-tvY" secondAttribute="trailing" constant="35" id="iTm-hC-RjQ"/>
-                            <constraint firstItem="brC-8Q-9wc" firstAttribute="bottom" secondItem="O1u-W8-tvY" secondAttribute="bottom" constant="26" id="pyJ-EZ-zxx"/>
-                            <constraint firstItem="O1u-W8-tvY" firstAttribute="top" secondItem="ke7-Q0-XeQ" secondAttribute="top" constant="73" id="qao-tq-Lct"/>
-                            <constraint firstItem="O1u-W8-tvY" firstAttribute="trailing" secondItem="l6i-7W-5D6" secondAttribute="trailing" constant="280" id="vma-wt-Q3u"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="신체" image="gym-2.png" id="cPa-gy-q4n"/>
