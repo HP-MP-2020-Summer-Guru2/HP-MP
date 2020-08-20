@@ -1168,7 +1168,6 @@
                                 <state key="normal" title="삭제"/>
                                 <connections>
                                     <action selector="del:" destination="bMa-33-22G" eventType="touchUpInside" id="Ir8-gi-Cga"/>
-                                    <action selector="delete:" destination="bMa-33-22G" eventType="touchUpInside" id="Nvh-nR-cc2"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cdc-xw-EUJ">
@@ -1216,13 +1215,19 @@
             <objects>
                 <viewController id="8rJ-Kc-sve" customClass="SecondViewController" customModule="HP_MP" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="830"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="사각형 140" translatesAutoresizingMaskIntoConstraints="NO" id="ke7-Q0-XeQ">
                                 <rect key="frame" x="-11" y="-29" width="421" height="153"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="신체건강" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sCb-S2-VXl">
+                                <rect key="frame" x="10" y="44" width="111" height="39"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wMY-lb-oY9" userLabel="gameView">
                                 <rect key="frame" x="0.0" y="95" width="375" height="634"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1596,13 +1601,11 @@
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="brC-8Q-9wc">
-                                <rect key="frame" x="0.0" y="95" width="375" height="660"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="brC-8Q-9wc">
+                                <rect key="frame" x="0.0" y="95" width="375" height="652"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1Ij-NQ-ox5" userLabel="main View">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Ij-NQ-ox5" userLabel="main View">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="830"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GjO-Ih-mke" userLabel="겨루기Button">
                                                 <rect key="frame" x="297" y="14" width="57" height="39"/>
@@ -1771,22 +1774,36 @@
                                             </label>
                                         </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="830" id="JDe-dg-KVx"/>
+                                        </constraints>
                                     </view>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="1Ij-NQ-ox5" firstAttribute="leading" secondItem="brC-8Q-9wc" secondAttribute="leading" id="AmA-Zf-vdf"/>
+                                    <constraint firstAttribute="bottom" secondItem="1Ij-NQ-ox5" secondAttribute="bottom" id="BN0-2k-hOV"/>
+                                    <constraint firstAttribute="trailing" secondItem="1Ij-NQ-ox5" secondAttribute="trailing" id="CpI-Nf-VT8"/>
+                                    <constraint firstItem="1Ij-NQ-ox5" firstAttribute="top" secondItem="brC-8Q-9wc" secondAttribute="top" id="g2Y-mt-GNP"/>
+                                </constraints>
                             </scrollView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="신체건강" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sCb-S2-VXl">
-                                <rect key="frame" x="10" y="44" width="111" height="39"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="O1u-W8-tvY" firstAttribute="trailing" secondItem="sCb-S2-VXl" secondAttribute="trailing" constant="254" id="3R0-TE-y8c"/>
+                            <constraint firstItem="1Ij-NQ-ox5" firstAttribute="width" secondItem="QS5-Rx-YEW" secondAttribute="width" id="5Ks-e6-Fj8"/>
+                            <constraint firstItem="sCb-S2-VXl" firstAttribute="top" secondItem="O1u-W8-tvY" secondAttribute="top" id="NgT-7j-4O9"/>
+                            <constraint firstItem="brC-8Q-9wc" firstAttribute="top" secondItem="sCb-S2-VXl" secondAttribute="bottom" constant="12" id="TjP-zk-ak5"/>
+                            <constraint firstItem="brC-8Q-9wc" firstAttribute="trailing" secondItem="O1u-W8-tvY" secondAttribute="trailing" id="XGI-qM-Uub"/>
+                            <constraint firstItem="sCb-S2-VXl" firstAttribute="leading" secondItem="O1u-W8-tvY" secondAttribute="leading" constant="10" id="f8i-It-PZS"/>
+                            <constraint firstItem="brC-8Q-9wc" firstAttribute="leading" secondItem="O1u-W8-tvY" secondAttribute="leading" id="pEG-nB-nrR"/>
+                            <constraint firstItem="1Ij-NQ-ox5" firstAttribute="height" secondItem="QS5-Rx-YEW" secondAttribute="height" priority="250" id="q6f-st-jLh"/>
+                            <constraint firstItem="O1u-W8-tvY" firstAttribute="bottom" secondItem="brC-8Q-9wc" secondAttribute="bottom" id="yX2-70-6HN"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="신체" image="gym-2.png" id="cPa-gy-q4n"/>
+                    <size key="freeformSize" width="375" height="830"/>
                     <connections>
                         <outlet property="aerobicView" destination="nsM-VA-hJI" id="DHi-NL-2DR"/>
                         <outlet property="gameView" destination="wMY-lb-oY9" id="lo0-Hf-EHY"/>
