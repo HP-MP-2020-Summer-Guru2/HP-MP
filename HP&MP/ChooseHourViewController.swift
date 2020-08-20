@@ -16,11 +16,12 @@ class ChooseHourViewController: UIViewController, UIPickerViewDelegate, UIPicker
     var imageArray = [UIImage?]()
     var imageFileName = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"]
     
-    
     @IBOutlet var pickerHour: UIPickerView!
     @IBOutlet var lblImageFileName: UILabel!
     @IBOutlet var imageView: UIImageView!
     @IBOutlet var dismissButton: UIButton!
+    
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -67,6 +68,7 @@ class ChooseHourViewController: UIViewController, UIPickerViewDelegate, UIPicker
         
     }
     
+
 
     /*
     // MARK: - Navigation

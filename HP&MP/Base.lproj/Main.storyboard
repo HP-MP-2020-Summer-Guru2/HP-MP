@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -20,7 +20,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s6F-pP-vPd">
-                                <rect key="frame" x="80" y="197" width="223" height="223"/>
+                                <rect key="frame" x="76" y="197" width="223" height="223"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="WaterBall" image="water_1.png"/>
                                 <connections>
@@ -28,7 +28,11 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="water_2.png" id="mrC-vJ-MfD">
-                                <rect key="frame" x="84" y="393" width="224" height="224"/>
+                                <rect key="frame" x="80" y="360" width="214" height="334"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hideWaterFLowBackground.png" translatesAutoresizingMaskIntoConstraints="NO" id="0vw-Zc-rMs">
+                                <rect key="frame" x="1" y="150" width="375" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="water_3surroundingLine.png" translatesAutoresizingMaskIntoConstraints="NO" id="17k-fJ-TeZ">
@@ -36,15 +40,15 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background_water.png" id="fBU-qC-YIN">
-                                <rect key="frame" x="32" y="155" width="318" height="332"/>
+                                <rect key="frame" x="28" y="154" width="318" height="332"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="smallSquare.png" translatesAutoresizingMaskIntoConstraints="NO" id="QEn-NB-3J6">
-                                <rect key="frame" x="21" y="515" width="335" height="214"/>
+                                <rect key="frame" x="19.295850066934463" y="515" width="335.00000000000006" height="214.00000000000011"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="smallSquareLine.png" translatesAutoresizingMaskIntoConstraints="NO" id="Aff-cs-WeI">
-                                <rect key="frame" x="68" y="557" width="240" height="128"/>
+                                <rect key="frame" x="67" y="557" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="수면 목표량" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jdf-2Q-2bQ">
@@ -74,19 +78,14 @@
                                     <segue destination="0aC-R3-FRg" kind="presentation" id="n7K-93-PfR"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="ifI-RJ-SNf">
-                                <rect key="frame" x="42" y="561" width="126" height="122"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="오늘의 활동량 " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jPp-gx-NKs">
-                                <rect key="frame" x="26" y="51" width="229" height="67"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="오늘의 활동량 " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jPp-gx-NKs">
+                                <rect key="frame" x="25" y="60" width="229" height="67"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="체크하기" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tdf-NX-Rvc">
-                                <rect key="frame" x="26" y="96" width="229" height="67"/>
+                                <rect key="frame" x="25" y="100" width="118" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -113,47 +112,56 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pKW-P3-D9M">
-                                <rect key="frame" x="181" y="176" width="10" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="L" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BFK-FD-iZM">
-                                <rect key="frame" x="193" y="176" width="10" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LS7-6Z-xDx">
-                                <rect key="frame" x="303" y="284" width="48" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="plusButton.png"/>
-                                <connections>
-                                    <action selector="plusClick:" destination="9pv-A4-QxB" eventType="touchUpInside" id="MIG-gb-jtp"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a3C-KK-cNQ">
-                                <rect key="frame" x="33" y="284" width="48" height="48"/>
+                                <rect key="frame" x="-133" y="284" width="375" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="minusButton.png"/>
                                 <connections>
                                     <action selector="minusClick:" destination="9pv-A4-QxB" eventType="touchUpInside" id="YiD-oq-ZLR"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2L" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pKW-P3-D9M">
+                                <rect key="frame" x="77" y="176" width="221" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="m9W-dX-kZB">
+                                <rect key="frame" x="54" y="571" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="물 한 잔당 한 번 클릭" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xFc-ff-6cY">
+                                <rect key="frame" x="137" y="421" width="100" height="15"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LS7-6Z-xDx">
+                                <rect key="frame" x="299" y="284" width="48" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="plusButton.png"/>
+                                <connections>
+                                    <action selector="plusClick:" destination="9pv-A4-QxB" eventType="touchUpInside" id="MIG-gb-jtp"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="jPp-gx-NKs" firstAttribute="leading" secondItem="PQr-Ze-W5v" secondAttribute="leading" constant="60" id="gaP-M7-EcM"/>
+                            <constraint firstItem="jPp-gx-NKs" firstAttribute="top" secondItem="PQr-Ze-W5v" secondAttribute="top" constant="7" id="t7O-Zf-7oH"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="PQr-Ze-W5v"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="홈" image="house.fill" catalog="system" id="acW-dT-cKf"/>
                     <navigationItem key="navigationItem" id="FVh-J9-p4e"/>
                     <connections>
                         <outlet property="SleepButton" destination="a8H-IN-0Ax" id="kw9-iF-1KJ"/>
-                        <outlet property="numImageView1" destination="ifI-RJ-SNf" id="zJT-es-mUo"/>
+                        <outlet property="imageHolder" destination="m9W-dX-kZB" id="q4f-qw-BCa"/>
                         <outlet property="totalAmountOfWater" destination="pKW-P3-D9M" id="zMW-RG-BXY"/>
                         <outlet property="waterButton" destination="s6F-pP-vPd" id="8AH-EG-ysN"/>
+                        <outlet property="waterFlow" destination="mrC-vJ-MfD" id="dXI-6C-4RL"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
@@ -967,6 +975,7 @@
         <image name="exit.png" width="35.279998779296875" height="35.520000457763672"/>
         <image name="gym-2.png" width="23.142856597900391" height="23.142856597900391"/>
         <image name="heart.fill" catalog="system" width="128" height="109"/>
+        <image name="hideWaterFLowBackground.png" width="414.239990234375" height="409"/>
         <image name="house.fill" catalog="system" width="128" height="106"/>
         <image name="minusButton.png" width="47.520000457763672" height="47.520000457763672"/>
         <image name="pencil" catalog="system" width="128" height="113"/>
@@ -978,8 +987,8 @@
         <image name="smallSquare.png" width="364" height="150"/>
         <image name="smallSquareLine.png" width="2" height="150"/>
         <image name="song.png" width="157" height="194"/>
-        <image name="water_1.png" width="253" height="253"/>
-        <image name="water_2.png" width="313.44000244140625" height="273.3599853515625"/>
+        <image name="water_1.png" width="253.19999694824219" height="253.19999694824219"/>
+        <image name="water_2.png" width="350.8800048828125" height="418.32000732421875"/>
         <image name="water_3surroundingLine.png" width="252.24000549316406" height="252.24000549316406"/>
         <image name="yoga.png" width="362" height="194"/>
         <image name="사각형 135" width="90" height="39"/>
