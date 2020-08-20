@@ -9,18 +9,33 @@
 import UIKit
 //500 = 0.5L
 //2L
-class FirstViewController: UIViewController {
+class FirstViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     var cupWater: Double = 0.5 //한 컵 기준
     var todayWater: Double = 2.0 //시작
     var myWater: Double = 0.0 // button 누를때 마다 변하게 해야 함
     var num: Int = 0
     
     @IBOutlet var SleepButton: UIButton!
+    @IBOutlet var ExerciseButton: UIButton!
     @IBOutlet var waterButton: UIButton!
+    
     @IBOutlet var totalAmountOfWater: UILabel!
     @IBOutlet var waterFlow: UIImageView!
-    @IBOutlet var imageHolder: UIImageView!
+    
+    @IBOutlet weak var imageHolder: UIImageView!
+    @IBOutlet weak var imageHolder2: UIImageView!
+    
+//    @IBAction func chooseSleepingHour(_ sender: Any) {
+//        let imagePickerController = UIImagePickerController()
+//        imagePickerController.delegate = self
+//    }
+    
+//    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+//        let image = info[UIImagePickerControllerOriginalImage]
+//    }
 
+    
+    
     
     @IBAction func minusClick(_ sender: Any) {
         if todayWater == 0 {
@@ -77,6 +92,7 @@ class FirstViewController: UIViewController {
 
     }
     
+
     
     
     

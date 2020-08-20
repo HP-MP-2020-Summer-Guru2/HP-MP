@@ -10,9 +10,20 @@ import UIKit
 
 class ThirdViewController: UIViewController {
 
+    @IBOutlet var mainView: UIView!
+    @IBOutlet var sleepView: UIView!
+    @IBOutlet var scrollView: UIScrollView!
+    @IBOutlet var timeView: UIView!
+    @IBOutlet var restView: UIView!
+    @IBOutlet var asmrView: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor(patternImage: UIImage(named: "background.png")!)
+        sleepView.isHidden = true
+        asmrView.isHidden = true
+        restView.isHidden = true
+        timeView.isHidden = true
 
         // Do any additional setup after loading the view.
     }
@@ -21,7 +32,65 @@ class ThirdViewController: UIViewController {
         guard let url = URL(string: "https://youtu.be/sXLCkQnn1vc"), UIApplication.shared.canOpenURL(url) else { return }
          UIApplication.shared.open(url, options: [:], completionHandler: nil)
         }
+    
+    @IBAction func restButton(_ sender: UIButton) {
+        guard let url = URL(string: "https://youtu.be/dZewQEbQQM0"), UIApplication.shared.canOpenURL(url) else { return }
+        UIApplication.shared.open(url, options: [:], completionHandler: nil)
     }
+    
+    @IBAction func songButton(_ sender: UIButton) {
+        guard let url = URL(string: "https://youtu.be/gbW1QFScQmE"), UIApplication.shared.canOpenURL(url) else { return }
+        UIApplication.shared.open(url, options: [:], completionHandler: nil)
+    }
+    
+    @IBAction func asmrButton(_ sender: UIButton) {
+        guard let url = URL(string: "https://youtu.be/qg9Ek28fwHk"), UIApplication.shared.canOpenURL(url) else { return }
+        UIApplication.shared.open(url, options: [:], completionHandler: nil)
+    }
+    
+    @IBAction func yogaButton(_ sender: UIButton) {
+        guard let url = URL(string: "https://youtu.be/Yi_toDN2cSM"), UIApplication.shared.canOpenURL(url) else { return }
+        UIApplication.shared.open(url, options: [:], completionHandler: nil)
+    }
+    @IBAction func selfesteemButton(_ sender: UIButton) {
+        guard let url = URL(string: "https://youtu.be/6A-XJ4UgJjg"), UIApplication.shared.canOpenURL(url) else { return }
+        UIApplication.shared.open(url, options: [:], completionHandler: nil)
+    }
+    @IBAction func chooseSleep(_ sender: UIButton) {
+        sleepView.isHidden = false
+        scrollView.isHidden = true
+        timeView.isHidden = true
+        restView.isHidden = true
+        asmrView.isHidden = true
+        mainView.isHidden = true
+    }
+    @IBAction func chooseASMR(_ sender: UIButton) {
+        sleepView.isHidden = true
+        scrollView.isHidden = true
+        timeView.isHidden = true
+        restView.isHidden = true
+        asmrView.isHidden = false
+        mainView.isHidden = true
+    }
+    
+    @IBAction func chooseRest(_ sender: UIButton) {
+        sleepView.isHidden = true
+        scrollView.isHidden = true
+        timeView.isHidden = true
+        restView.isHidden = false
+        asmrView.isHidden = true
+        mainView.isHidden = true
+    }
+    @IBAction func chooseTime(_ sender: UIButton) {
+        sleepView.isHidden = true
+        scrollView.isHidden = true
+        timeView.isHidden = false
+        restView.isHidden = true
+        asmrView.isHidden = true
+        mainView.isHidden = true
+    }
+}
+
     
     /*
     // MARK: - Navigation
