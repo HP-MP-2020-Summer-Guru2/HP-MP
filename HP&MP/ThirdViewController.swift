@@ -18,8 +18,8 @@ class ThirdViewController: UIViewController {
     }
     
     @IBAction func sleepButton(_ sender: UIButton) {
-        if let url = URL(string: "https://www.youtube.com/results?search_query=수면") {
-                   UIApplication.shared.open(url, options: [:])
+        guard let url = URL(string: "https://youtu.be/sXLCkQnn1vc"), UIApplication.shared.canOpenURL(url) else { return }
+         UIApplication.shared.open(url, options: [:], completionHandler: nil)
         }
     }
     
@@ -33,4 +33,3 @@ class ThirdViewController: UIViewController {
     }
     */
 
-}

@@ -238,6 +238,63 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I9E-YL-I3h">
                                 <rect key="frame" x="0.0" y="100" width="375" height="647"/>
                                 <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qdr-5c-FZK" userLabel="View2">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="830"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pno-Ze-Ebt">
+                                                <rect key="frame" x="13" y="14" width="57" height="39"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="Asset 13.png"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tk1-jr-FJ2">
+                                                <rect key="frame" x="78" y="14" width="88" height="39"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="Asset 14.png"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uIL-0L-ECc">
+                                                <rect key="frame" x="174" y="14" width="88" height="39"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="Asset 15.png"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4u1-d7-Bwa">
+                                                <rect key="frame" x="21" y="70" width="333" height="182"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="sleep.png"/>
+                                                <connections>
+                                                    <action selector="sleepButton:" destination="sHT-AB-I9B" eventType="touchUpInside" id="MOj-eG-8Ju"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w2G-25-KZB">
+                                                <rect key="frame" x="197" y="267" width="157" height="175"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="song.png"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tTO-R1-DeL">
+                                                <rect key="frame" x="21" y="455" width="333" height="150"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="asmr.png"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b1v-VJ-nAW">
+                                                <rect key="frame" x="21" y="622" width="333" height="179"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="yoga.png"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ogv-2A-NKO">
+                                                <rect key="frame" x="21" y="267" width="159" height="175"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="rest.png"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pGb-MQ-n68">
+                                                <rect key="frame" x="270" y="14" width="88" height="39"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="Asset 12.png"/>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="830" id="pA2-12-o4Y"/>
+                                        </constraints>
+                                    </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="07D-33-7VK">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="830"/>
                                         <subviews>
@@ -284,6 +341,11 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" image="rest.png"/>
                                             </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ggo-W1-4L1">
+                                                <rect key="frame" x="270" y="14" width="88" height="39"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="Asset 12.png"/>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                         <constraints>
@@ -292,9 +354,13 @@
                                     </view>
                                 </subviews>
                                 <constraints>
+                                    <constraint firstItem="qdr-5c-FZK" firstAttribute="top" secondItem="I9E-YL-I3h" secondAttribute="top" id="0JC-0x-661"/>
                                     <constraint firstAttribute="trailing" secondItem="07D-33-7VK" secondAttribute="trailing" id="59a-gQ-yB4"/>
+                                    <constraint firstItem="qdr-5c-FZK" firstAttribute="leading" secondItem="I9E-YL-I3h" secondAttribute="leading" id="7FD-KV-hJQ"/>
                                     <constraint firstItem="07D-33-7VK" firstAttribute="leading" secondItem="I9E-YL-I3h" secondAttribute="leading" id="OM2-wo-K7m"/>
                                     <constraint firstItem="07D-33-7VK" firstAttribute="top" secondItem="I9E-YL-I3h" secondAttribute="top" id="RWx-Tt-1hQ"/>
+                                    <constraint firstAttribute="trailing" secondItem="qdr-5c-FZK" secondAttribute="trailing" id="TyX-vA-S2o"/>
+                                    <constraint firstAttribute="bottom" secondItem="qdr-5c-FZK" secondAttribute="bottom" id="Vuh-CO-Xbv"/>
                                     <constraint firstAttribute="bottom" secondItem="07D-33-7VK" secondAttribute="bottom" id="dtl-2H-K4c"/>
                                 </constraints>
                             </scrollView>
@@ -885,6 +951,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Asset 12.png" width="88" height="39"/>
         <image name="Asset 13.png" width="57" height="39"/>
         <image name="Asset 14.png" width="88" height="39"/>
         <image name="Asset 15.png" width="88" height="39"/>
