@@ -17,7 +17,12 @@ class ThirdViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func sleepButton(_ sender: UIButton) {
+        if let url = URL(string: "https://www.youtube.com/results?search_query=수면") {
+                   UIApplication.shared.open(url, options: [:])
+        }
+    }
+    
     /*
     // MARK: - Navigation
 
