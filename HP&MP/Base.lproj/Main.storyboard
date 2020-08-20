@@ -1304,7 +1304,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="830"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="사각형 140" translatesAutoresizingMaskIntoConstraints="NO" id="ke7-Q0-XeQ">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="사각형 140.png" translatesAutoresizingMaskIntoConstraints="NO" id="ke7-Q0-XeQ">
                                 <rect key="frame" x="-11" y="-29" width="421" height="153"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -1321,7 +1321,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3SY-CW-PzI" userLabel="겨루기Button">
                                         <rect key="frame" x="297" y="14" width="57" height="39"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" image="사각형 33"/>
+                                        <state key="normal" image="사각형 33.png"/>
                                         <connections>
                                             <action selector="chooseGame:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="3eD-8W-Bhe"/>
                                         </connections>
@@ -1329,7 +1329,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CHL-Km-a7a" userLabel="스트레칭Button">
                                         <rect key="frame" x="103" y="14" width="88" height="39"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" image="사각형 32"/>
+                                        <state key="normal" image="사각형 154.png"/>
                                         <connections>
                                             <action selector="chooseStretch:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="bvQ-Cm-TDa"/>
                                         </connections>
@@ -1337,15 +1337,15 @@
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Ba-FO-Ack" userLabel="유산소Button">
                                         <rect key="frame" x="21" y="14" width="74" height="40"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" image="사각형 136"/>
+                                        <state key="normal" image="사각형 136.png"/>
                                         <connections>
                                             <action selector="chooseAerobic:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="bEN-M5-fHf"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TOB-E3-BdC" userLabel="근육운동Button">
-                                        <rect key="frame" x="199" y="14" width="90" height="39"/>
+                                        <rect key="frame" x="200" y="14" width="88" height="39"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" image="사각형 135"/>
+                                        <state key="normal" image="사각형 32.png"/>
                                         <connections>
                                             <action selector="chooseMuscle:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="7lC-Bj-ZOJ"/>
                                         </connections>
@@ -1381,7 +1381,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yoy-ED-Erm">
                                         <rect key="frame" x="21" y="70" width="333" height="157"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" image="Asset 6"/>
+                                        <state key="normal" image="Asset 6_1.png"/>
                                         <connections>
                                             <action selector="takwondoButton:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="N5c-fj-CLG"/>
                                         </connections>
@@ -1396,7 +1396,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iKc-32-Rsk">
                                         <rect key="frame" x="208" y="260" width="146" height="175"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" image="Asset 5"/>
+                                        <state key="normal" image="Asset 5.png"/>
                                         <connections>
                                             <action selector="boxingButton:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="dX7-J0-JBa"/>
                                         </connections>
@@ -1418,7 +1418,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Ze-V0-b5m" userLabel="겨루기Button">
                                         <rect key="frame" x="297" y="14" width="57" height="39"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" image="사각형 33"/>
+                                        <state key="normal" image="사각형 33.png"/>
                                         <connections>
                                             <action selector="chooseGame:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="r1p-H4-eZ6"/>
                                         </connections>
@@ -1426,7 +1426,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xv9-93-ZJv" userLabel="스트레칭Button">
                                         <rect key="frame" x="103" y="14" width="88" height="39"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" image="사각형 32"/>
+                                        <state key="normal" image="사각형 154.png"/>
                                         <connections>
                                             <action selector="chooseStretch:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="b7n-8b-oaz"/>
                                         </connections>
@@ -1434,15 +1434,15 @@
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QES-70-b7f" userLabel="유산소Button">
                                         <rect key="frame" x="21" y="14" width="74" height="40"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" image="사각형 136"/>
+                                        <state key="normal" image="사각형 136.png"/>
                                         <connections>
                                             <action selector="chooseAerobic:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="eSd-7Q-HXY"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gEj-7P-k3h" userLabel="근육운동Button">
-                                        <rect key="frame" x="199" y="14" width="90" height="39"/>
+                                        <rect key="frame" x="200" y="14" width="88" height="39"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" image="사각형 135"/>
+                                        <state key="normal" image="사각형 32.png"/>
                                         <connections>
                                             <action selector="chooseMuscle:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="Tfl-Hg-m8i"/>
                                         </connections>
@@ -1478,7 +1478,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4aP-75-Kp8">
                                         <rect key="frame" x="21" y="70" width="159" height="175"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" image="Asset 4"/>
+                                        <state key="normal" image="Asset 4.png"/>
                                         <connections>
                                             <action selector="muscleButton:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="M4q-69-ed6"/>
                                         </connections>
@@ -1493,7 +1493,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RWm-R7-imK">
                                         <rect key="frame" x="197" y="70" width="157" height="175"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Button" image="Asset 10"/>
+                                        <state key="normal" title="Button" image="Asset 101.png"/>
                                         <connections>
                                             <action selector="vallyButton:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="FS6-K4-aWv"/>
                                         </connections>
@@ -1515,7 +1515,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4ac-2P-Kuw" userLabel="겨루기Button">
                                         <rect key="frame" x="297" y="14" width="57" height="39"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" image="사각형 33"/>
+                                        <state key="normal" image="사각형 33.png"/>
                                         <connections>
                                             <action selector="chooseGame:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="ihl-Qn-Mw3"/>
                                         </connections>
@@ -1523,7 +1523,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iNs-Jv-tYi" userLabel="스트레칭Button">
                                         <rect key="frame" x="103" y="14" width="88" height="39"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" image="사각형 32"/>
+                                        <state key="normal" image="사각형 154.png"/>
                                         <connections>
                                             <action selector="chooseStretch:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="DkZ-a4-Ozl"/>
                                         </connections>
@@ -1531,15 +1531,15 @@
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fAs-p4-ceW" userLabel="유산소Button">
                                         <rect key="frame" x="21" y="14" width="74" height="40"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" image="사각형 136"/>
+                                        <state key="normal" image="사각형 136.png"/>
                                         <connections>
                                             <action selector="chooseAerobic:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="242-Tz-96Z"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5om-xO-rlK" userLabel="근육운동Button">
-                                        <rect key="frame" x="199" y="24" width="90" height="39"/>
+                                        <rect key="frame" x="200" y="14" width="88" height="39"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" image="사각형 135"/>
+                                        <state key="normal" image="사각형 32.png"/>
                                         <connections>
                                             <action selector="chooseMuscle:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="oeD-Qu-lJM"/>
                                         </connections>
@@ -1575,7 +1575,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PvB-Sf-1Za">
                                         <rect key="frame" x="21" y="70" width="159" height="175"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" image="Asset 2"/>
+                                        <state key="normal" image="Asset 2.png"/>
                                         <connections>
                                             <action selector="aerobicButton:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="ExW-uK-THp"/>
                                         </connections>
@@ -1597,7 +1597,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MHS-EQ-2nt" userLabel="겨루기Button">
                                         <rect key="frame" x="297" y="14" width="57" height="39"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" image="사각형 33"/>
+                                        <state key="normal" image="사각형 33.png"/>
                                         <connections>
                                             <action selector="chooseGame:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="56V-Ek-FxC"/>
                                         </connections>
@@ -1605,7 +1605,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zjq-MX-VL2" userLabel="스트레칭Button">
                                         <rect key="frame" x="103" y="14" width="88" height="39"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" image="사각형 32"/>
+                                        <state key="normal" image="사각형 32.png"/>
                                         <connections>
                                             <action selector="chooseStretch:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="4f5-kV-yES"/>
                                         </connections>
@@ -1613,15 +1613,15 @@
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uBG-RI-hoK" userLabel="유산소Button">
                                         <rect key="frame" x="21" y="14" width="74" height="40"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" image="사각형 136"/>
+                                        <state key="normal" image="사각형 136.png"/>
                                         <connections>
                                             <action selector="chooseAerobic:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="auA-w8-YHL"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jKE-Mq-VHa" userLabel="근육운동Button">
-                                        <rect key="frame" x="199" y="14" width="90" height="39"/>
+                                        <rect key="frame" x="200" y="14" width="88" height="39"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" image="사각형 135"/>
+                                        <state key="normal" image="사각형 154.png"/>
                                         <connections>
                                             <action selector="chooseMuscle:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="1DZ-aR-M6r"/>
                                         </connections>
@@ -1657,7 +1657,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aAv-ha-zAM">
                                         <rect key="frame" x="197" y="70" width="157" height="175"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" image="Asset 3"/>
+                                        <state key="normal" image="Asset 3.png"/>
                                         <connections>
                                             <action selector="yogaButton:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="mlY-aJ-jfO"/>
                                         </connections>
@@ -1672,7 +1672,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u8J-GI-GH9">
                                         <rect key="frame" x="21" y="70" width="159" height="175"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" image="Asset 9"/>
+                                        <state key="normal" image="Asset 91.png"/>
                                         <connections>
                                             <action selector="stretchButton:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="Ixg-Q1-HfP"/>
                                         </connections>
@@ -1696,7 +1696,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GjO-Ih-mke" userLabel="겨루기Button">
                                                 <rect key="frame" x="297" y="14" width="57" height="39"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" image="사각형 33"/>
+                                                <state key="normal" image="사각형 33.png"/>
                                                 <connections>
                                                     <action selector="chooseGame:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="L7s-5R-5qH"/>
                                                 </connections>
@@ -1704,7 +1704,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4EO-4A-67D" userLabel="스트레칭Button">
                                                 <rect key="frame" x="103" y="14" width="88" height="39"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" image="사각형 32"/>
+                                                <state key="normal" image="사각형 154.png"/>
                                                 <connections>
                                                     <action selector="chooseStretch:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="UXH-MB-4A6"/>
                                                 </connections>
@@ -1712,15 +1712,15 @@
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l6i-7W-5D6" userLabel="유산소Button">
                                                 <rect key="frame" x="21" y="14" width="74" height="40"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" image="사각형 136"/>
+                                                <state key="normal" image="사각형 136.png"/>
                                                 <connections>
                                                     <action selector="chooseAerobic:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="eaP-sp-W4F"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bed-QL-kLq" userLabel="근육운동Button">
-                                                <rect key="frame" x="199" y="14" width="90" height="39"/>
+                                                <rect key="frame" x="200" y="14" width="88" height="39"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" image="사각형 135"/>
+                                                <state key="normal" image="사각형 32.png"/>
                                                 <connections>
                                                     <action selector="chooseMuscle:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="kKf-et-JXS"/>
                                                 </connections>
@@ -1728,7 +1728,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PLe-eC-PKa">
                                                 <rect key="frame" x="197" y="70" width="157" height="175"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" image="Asset 3"/>
+                                                <state key="normal" image="Asset 3.png"/>
                                                 <connections>
                                                     <action selector="yogaButton:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="zZk-BA-Udi"/>
                                                 </connections>
@@ -1736,7 +1736,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UrL-zk-6Hf">
                                                 <rect key="frame" x="21" y="260" width="170" height="175"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" image="Asset 4"/>
+                                                <state key="normal" image="Asset 4.png"/>
                                                 <connections>
                                                     <action selector="muscleButton:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="5A0-O6-egx"/>
                                                 </connections>
@@ -1744,7 +1744,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JK4-yv-c0c">
                                                 <rect key="frame" x="208" y="260" width="146" height="175"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" image="Asset 5"/>
+                                                <state key="normal" image="Asset 5.png"/>
                                                 <connections>
                                                     <action selector="boxingButton:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="icw-TJ-jsz"/>
                                                 </connections>
@@ -1752,7 +1752,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qgx-vR-JWB">
                                                 <rect key="frame" x="21" y="450" width="333" height="157"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" image="Asset 6"/>
+                                                <state key="normal" image="Asset 6_1.png"/>
                                                 <connections>
                                                     <action selector="takwondoButton:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="bMu-si-Kdz"/>
                                                 </connections>
@@ -1816,7 +1816,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gIh-Uf-20a">
                                                 <rect key="frame" x="21" y="70" width="159" height="175"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" image="Asset 2"/>
+                                                <state key="normal" image="Asset 2.png"/>
                                                 <connections>
                                                     <action selector="aerobicButton:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="cg2-SQ-QCg"/>
                                                 </connections>
@@ -1831,7 +1831,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zXf-QQ-U1H">
                                                 <rect key="frame" x="21" y="622" width="159" height="164"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="Button" image="Asset 10"/>
+                                                <state key="normal" title="Button" image="Asset 8.png"/>
                                                 <connections>
                                                     <action selector="vallyButton:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="fWj-PN-AK1"/>
                                                 </connections>
@@ -1839,7 +1839,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ipn-Dd-0Jb">
                                                 <rect key="frame" x="197" y="622" width="157" height="164"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" image="Asset 9"/>
+                                                <state key="normal" image="Asset 91.png"/>
                                                 <connections>
                                                     <action selector="stretchButton:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="kgN-V2-T6W"/>
                                                 </connections>
@@ -1925,17 +1925,18 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Asset 10" width="178" height="194"/>
+        <image name="Asset 101.png" width="178" height="194"/>
         <image name="Asset 12.png" width="88" height="39"/>
         <image name="Asset 13.png" width="57" height="39"/>
         <image name="Asset 14.png" width="88" height="39"/>
         <image name="Asset 15.png" width="88" height="39"/>
-        <image name="Asset 2" width="162" height="193"/>
-        <image name="Asset 3" width="179" height="194"/>
-        <image name="Asset 4" width="185" height="193"/>
-        <image name="Asset 5" width="156" height="193"/>
-        <image name="Asset 6" width="365" height="163"/>
-        <image name="Asset 9" width="162" height="193"/>
+        <image name="Asset 2.png" width="162" height="193"/>
+        <image name="Asset 3.png" width="179" height="194"/>
+        <image name="Asset 4.png" width="185" height="193"/>
+        <image name="Asset 5.png" width="156" height="193"/>
+        <image name="Asset 6_1.png" width="365" height="163"/>
+        <image name="Asset 8.png" width="184" height="194"/>
+        <image name="Asset 91.png" width="162" height="193"/>
         <image name="Home2Background.png" width="416" height="896"/>
         <image name="HomeBackgroung.png" width="414" height="896"/>
         <image name="asmr.png" width="362" height="164"/>
@@ -1960,10 +1961,10 @@
         <image name="water_2.png" width="350.8800048828125" height="418.32000732421875"/>
         <image name="water_3surroundingLine.png" width="252.24000549316406" height="252.24000549316406"/>
         <image name="yoga.png" width="362" height="194"/>
-        <image name="사각형 135" width="90" height="39"/>
-        <image name="사각형 136" width="74" height="40"/>
-        <image name="사각형 140" width="415" height="94"/>
-        <image name="사각형 32" width="88" height="39"/>
-        <image name="사각형 33" width="57" height="39"/>
+        <image name="사각형 136.png" width="74" height="40"/>
+        <image name="사각형 140.png" width="415" height="94"/>
+        <image name="사각형 154.png" width="88" height="39"/>
+        <image name="사각형 32.png" width="88" height="39"/>
+        <image name="사각형 33.png" width="57" height="39"/>
     </resources>
 </document>
