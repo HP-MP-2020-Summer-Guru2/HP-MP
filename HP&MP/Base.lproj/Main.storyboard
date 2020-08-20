@@ -10,7 +10,7 @@
         <!--홈-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
-                <viewController id="9pv-A4-QxB" customClass="FirstViewController" customModule="HP_MP" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController restorationIdentifier="FirstViewController" storyboardIdentifier="FirstViewController" id="9pv-A4-QxB" customClass="FirstViewController" customModule="HP_MP" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -70,7 +70,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="시간 설정하기"/>
                                 <connections>
-                                    <action selector="chooseSleepingHour:" destination="9pv-A4-QxB" eventType="touchUpInside" id="g9W-Qq-OxL"/>
                                     <segue destination="0aC-R3-FRg" kind="presentation" id="n7K-93-PfR"/>
                                 </connections>
                             </button>
@@ -202,7 +201,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="exit.png"/>
                                 <connections>
-                                    <action selector="dismissSecondVC:" destination="0aC-R3-FRg" eventType="touchUpInside" id="Yqa-bW-lcB"/>
                                     <action selector="dismissThirdVC:" destination="SRH-Mr-0Nw" eventType="touchUpInside" id="Af5-1h-cs2"/>
                                 </connections>
                             </button>
