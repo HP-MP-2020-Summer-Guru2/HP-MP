@@ -232,24 +232,59 @@
             <objects>
                 <viewController id="sHT-AB-I9B" customClass="ThirdViewController" customModule="HP_MP" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jx9-Ad-psY">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="730"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="830"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I9E-YL-I3h">
-                                <rect key="frame" x="0.0" y="100" width="375" height="581"/>
+                                <rect key="frame" x="0.0" y="100" width="375" height="647"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="07D-33-7VK">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="730"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="830"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x09-3W-XhK">
-                                                <rect key="frame" x="18" y="8" width="46" height="30"/>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x09-3W-XhK">
+                                                <rect key="frame" x="13" y="14" width="57" height="39"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="Button"/>
+                                                <state key="normal" image="Asset 13.png"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hcv-BN-lrv">
+                                                <rect key="frame" x="78" y="14" width="88" height="39"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="Asset 14.png"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2d5-OW-Afj">
+                                                <rect key="frame" x="174" y="14" width="88" height="39"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="Asset 15.png"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gQF-Mx-HXD">
+                                                <rect key="frame" x="21" y="70" width="333" height="179"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="sleep.png"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ta2-sY-Y5H">
+                                                <rect key="frame" x="21" y="260" width="159" height="182"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="rest.png"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7sK-Gw-qPV">
+                                                <rect key="frame" x="197" y="260" width="157" height="182"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="song.png"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fmQ-4W-vk4">
+                                                <rect key="frame" x="21" y="455" width="333" height="150"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="asmr.png"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vzd-MY-y6F">
+                                                <rect key="frame" x="21" y="622" width="333" height="179"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="yoga.png"/>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="730" id="2Jl-SZ-AMP"/>
+                                            <constraint firstAttribute="height" constant="830" id="2Jl-SZ-AMP"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -279,7 +314,7 @@
                         <viewLayoutGuide key="safeArea" id="lho-oW-bhB"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="멘탈" image="heart.fill" catalog="system" id="N0x-g5-O9l"/>
-                    <size key="freeformSize" width="375" height="730"/>
+                    <size key="freeformSize" width="375" height="830"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tF5-04-GtB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -847,6 +882,9 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Asset 13.png" width="57" height="39"/>
+        <image name="Asset 14.png" width="88" height="39"/>
+        <image name="Asset 15.png" width="88" height="39"/>
         <image name="Asset 2" width="162" height="193"/>
         <image name="Asset 3" width="179" height="194"/>
         <image name="Asset 4" width="185" height="193"/>
@@ -854,6 +892,7 @@
         <image name="Asset 6" width="365" height="163"/>
         <image name="Home2Background.png" width="416" height="896"/>
         <image name="HomeBackgroung.png" width="414" height="896"/>
+        <image name="asmr.png" width="362" height="164"/>
         <image name="background_water.png" width="364" height="380"/>
         <image name="exit.png" width="35.279998779296875" height="35.520000457763672"/>
         <image name="gym-2.png" width="23.142856597900391" height="23.142856597900391"/>
@@ -863,12 +902,16 @@
         <image name="pencil" catalog="system" width="128" height="113"/>
         <image name="person.3.fill" catalog="system" width="128" height="61"/>
         <image name="plusButton.png" width="47.520000457763672" height="47.520000457763672"/>
+        <image name="rest.png" width="182" height="194"/>
         <image name="shift.fill" catalog="system" width="128" height="106"/>
+        <image name="sleep.png" width="362" height="195"/>
         <image name="smallSquare.png" width="364" height="150"/>
         <image name="smallSquareLine.png" width="2" height="150"/>
+        <image name="song.png" width="157" height="194"/>
         <image name="water_1.png" width="253" height="253"/>
         <image name="water_2.png" width="313.44000244140625" height="273.3599853515625"/>
         <image name="water_3surroundingLine.png" width="252.24000549316406" height="252.24000549316406"/>
+        <image name="yoga.png" width="362" height="194"/>
         <image name="사각형 135" width="90" height="39"/>
         <image name="사각형 136" width="74" height="40"/>
         <image name="사각형 140" width="415" height="94"/>
