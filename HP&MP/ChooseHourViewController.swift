@@ -8,6 +8,7 @@
 
 import UIKit
 
+
 class ChooseHourViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
     
     let MAX_ARRAY_NUM = 12
@@ -15,13 +16,13 @@ class ChooseHourViewController: UIViewController, UIPickerViewDelegate, UIPicker
     let PICKER_VIEW_COLUMN = 1
     var imageArray = [UIImage?]()
     var imageFileName = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"]
+    var numberText2 = ""
     
     @IBOutlet var pickerHour: UIPickerView!
     @IBOutlet var lblImageFileName: UILabel!
     @IBOutlet var imageView: UIImageView!
     @IBOutlet var dismissButton: UIButton!
     
-
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -38,23 +39,24 @@ class ChooseHourViewController: UIViewController, UIPickerViewDelegate, UIPicker
         imageView.image = imageArray[0]
     }
     
-    @IBAction func dismissSecondVC(_ sender: AnyObject) {
-        self.dismiss(animated: true, completion: nil)
-    }
+
     
-    
+    //피커뷰 컴포넌트 수 설정
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return PICKER_VIEW_COLUMN
     }
     
+   //룰렛 높이 설정
     func pickerView(_ pickerView: UIPickerView, rowHeightForComponent component: Int) -> CGFloat {
         return PICKER_VIEW_HEIGHT
     }
     
+    //피커 뷰 개수 설정
     func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
         return imageFileName.count
     }
 
+    //피커뷰의 각 row 의 view 설정
     func pickerView(_ pickerView: UIPickerView, viewForRow row: Int, forComponent component: Int, reusing view: UIView?) -> UIView {
         let imageView = UIImageView(image:imageArray[row])
         imageView.frame = CGRect(x:0, y:0, width: 100, height: 150)
@@ -62,33 +64,31 @@ class ChooseHourViewController: UIViewController, UIPickerViewDelegate, UIPicker
         return imageView
     }
     
+    //피커뷰 선택 시 실행
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         lblImageFileName.text = imageFileName[row]
         imageView.image = imageArray[row]
-//        UserDefaults.standard.set(imageFileName[row], forKey: "TimeNumber")
-//        guard let vc = self.storyboard?.instantiateViewController(identifier: "FirstViewController") as? FirstViewController else {return}
-//        print(imageFileName[row])
-////        print((UserDefaults.standard.object(forKey: "TimeNumber") ?? 1) as! String + ".png")
-////        print(type(of: ((UserDefaults.standard.object(forKey: "TimeNumber") ?? 1) as! String)))
-//        //vc.imageHolder.image = UIImage(named: imageFileName[row])
-//        vc.imageHolder.image = UIImage(named: imageFileName[row])
-//        vc.w
 
         
     }
     
-
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func sendNumber2(_ sender: Any) {
+        self.numberText2 = lblImageFileName.text!
+        performSegue(withIdentifier: "sendText2", sender: self)
     }
-    */
+    
+    
+    @IBAction func dismissSecondVC(_ sender: AnyObject) {
+        self.dismiss(animated: true, completion: nil)
+        
+    }
 
+       override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+           let vc = segue.destination as! FirstViewController
+           vc.finalSend2 = self.numberText2
+    
+       }
+  
 }
 
 

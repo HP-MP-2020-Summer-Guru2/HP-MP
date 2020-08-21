@@ -14,6 +14,9 @@ class FirstViewController: UIViewController, UIImagePickerControllerDelegate, UI
     var todayWater: Double = 2.0 //시작
     var myWater: Double = 0.0 // button 누를때 마다 변하게 해야 함
     var num: Int = 0
+    var finalSend = ""
+    var finalSend2 = ""
+    
     
     @IBOutlet var SleepButton: UIButton!
     @IBOutlet var ExerciseButton: UIButton!
@@ -22,22 +25,16 @@ class FirstViewController: UIViewController, UIImagePickerControllerDelegate, UI
     @IBOutlet var totalAmountOfWater: UILabel!
     @IBOutlet var waterFlow: UIImageView!
     
-    @IBOutlet weak var imageHolder: UIImageView!
-    @IBOutlet weak var imageHolder2: UIImageView!
     
-//    @IBAction func chooseSleepingHour(_ sender: Any) {
-//        let imagePickerController = UIImagePickerController()
-//        imagePickerController.delegate = self
-//    }
+    @IBOutlet var SuccessOutput: UILabel!
+    @IBOutlet var enterLabel: UILabel!
+    @IBOutlet var enterLabel2: UILabel!
     
-//    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
-//        let image = info[UIImagePickerControllerOriginalImage]
-//    }
-
     
     
     
     @IBAction func minusClick(_ sender: Any) {
+        //버튼 클릭 시 수분 섭취 목표량 -변경
         if todayWater == 0 {
             totalAmountOfWater.text = "최소: 1L"
         }
@@ -50,6 +47,7 @@ class FirstViewController: UIViewController, UIImagePickerControllerDelegate, UI
     }
     
     @IBAction func plusClick(_ sender: Any) {
+        //버튼 클릭 시 수분 섭취 목표량 +변경
          if todayWater == 6 {
             totalAmountOfWater.text = "최대: 6L"
         }
@@ -61,15 +59,15 @@ class FirstViewController: UIViewController, UIImagePickerControllerDelegate, UI
     }
     
     @IBAction func waterButtonClicked(_ sender: UIButton) {
-        //if문 검사하는 넣기 , todaywater == 2L면 안차오르게 or 다 마셨어요
+        //if문 검사하는 넣기 , todaywater == 2L면 안차오르게 and 목표량 달성 문구
         
         if myWater == todayWater {
-            totalAmountOfWater.text = "오늘의 목표량 달성"
+            SuccessOutput.text = "오늘의 목표량 달성"
         }
         //         else           이 위치에 차오르게 하기
         // todayWater += 0.5
         else {
-            
+            //버튼 클릭 시 waterFlow의 움직임
             myWater += cupWater
                     UIView.animate(withDuration: 0.5, delay: 0, usingSpringWithDamping: 0.5, initialSpringVelocity: 0.5, options: .curveEaseOut, animations: {
                         
@@ -85,21 +83,20 @@ class FirstViewController: UIViewController, UIImagePickerControllerDelegate, UI
     }
     
     
-
+//    override func viewDidAppear(_ animated: Bool) {
+//        imageHolder2.image = finalSend
+//        print("성공")
+//    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+            
+        enterLabel.text = finalSend
+        enterLabel2.text = finalSend2
 
 
     }
-    override func viewWillAppear(_ animated: Bool) {
-    print("hi")
-//         String(UserDefaults.standard.object(forKey: "TimeNumber") ?? 1) + ".png"
-        //label.image = UIImage(name: HERE)
-    }
-    override func viewDidAppear(_ animated: Bool) {
-        print("h2i")
-    }
-    
+
 
     
     
