@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -1914,25 +1914,25 @@
         </scene>
     </scenes>
     <resources>
-        <image name="1Board_Background.png" width="363" height="684.5"/>
+        <image name="1Board_Background.png" width="363.5" height="684.5"/>
         <image name="1Board_ProfilIcon.png" width="26.5" height="26.5"/>
         <image name="1Board_WritIcon.png" width="53" height="53.5"/>
         <image name="1Board_recommendIcon.png" width="12.5" height="12.5"/>
         <image name="2Board_CloseButton.png" width="32.5" height="32.5"/>
         <image name="2Board_LowerTitleLine.png" width="413.5" height="1.5"/>
         <image name="2Board_PostButton.png" width="56.5" height="34.5"/>
-        <image name="Asset 101.png" width="178" height="194"/>
+        <image name="Asset 101.png" width="177.5" height="194"/>
         <image name="Asset 12.png" width="88" height="39"/>
         <image name="Asset 13.png" width="57" height="39"/>
         <image name="Asset 14.png" width="88" height="39"/>
         <image name="Asset 15.png" width="88" height="39"/>
-        <image name="Asset 2.png" width="162" height="193"/>
-        <image name="Asset 3.png" width="179" height="194"/>
-        <image name="Asset 4.png" width="185" height="193"/>
-        <image name="Asset 5.png" width="156" height="193"/>
-        <image name="Asset 6_1.png" width="365" height="163"/>
-        <image name="Asset 8.png" width="184" height="194"/>
-        <image name="Asset 91.png" width="162" height="193"/>
+        <image name="Asset 2.png" width="161.5" height="192.5"/>
+        <image name="Asset 3.png" width="178" height="193.5"/>
+        <image name="Asset 4.png" width="184" height="192.5"/>
+        <image name="Asset 5.png" width="155.5" height="192.5"/>
+        <image name="Asset 6_1.png" width="364.5" height="162.5"/>
+        <image name="Asset 8.png" width="183.5" height="193.5"/>
+        <image name="Asset 91.png" width="161.5" height="193"/>
         <image name="Home2Background.png" width="416" height="896"/>
         <image name="HomeBackgroung.png" width="414" height="896"/>
         <image name="HourSetButton2.png" width="100" height="100"/>
@@ -1957,9 +1957,9 @@
         <image name="water_3surroundingLine.png" width="252.24000549316406" height="252.24000549316406"/>
         <image name="yoga.png" width="362" height="194"/>
         <image name="사각형 136.png" width="74" height="40"/>
-        <image name="사각형 140.png" width="415" height="94"/>
-        <image name="사각형 154.png" width="88" height="39"/>
-        <image name="사각형 32.png" width="88" height="39"/>
-        <image name="사각형 33.png" width="57" height="39"/>
+        <image name="사각형 140.png" width="414.5" height="93.5"/>
+        <image name="사각형 154.png" width="87.5" height="38.5"/>
+        <image name="사각형 32.png" width="87.5" height="38.5"/>
+        <image name="사각형 33.png" width="56.5" height="38.5"/>
     </resources>
 </document>
