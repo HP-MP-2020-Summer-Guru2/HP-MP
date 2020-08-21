@@ -16,7 +16,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Applogo" translatesAutoresizingMaskIntoConstraints="NO" id="f5u-Vb-YWp">
-                                <rect key="frame" x="130.5" y="309.5" width="153" height="277"/>
+                                <rect key="frame" x="130.5" y="310" width="153" height="276"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -33,6 +33,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Applogo" width="153" height="277"/>
+        <image name="Applogo" width="152.33332824707031" height="275.66665649414062"/>
     </resources>
 </document>
