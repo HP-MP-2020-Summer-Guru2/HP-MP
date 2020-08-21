@@ -8,6 +8,7 @@
 
 import UIKit
 
+// 운동 목표 시간을 pickerView로 설정하는 View
 class ChooseHour2ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
    
    let MAX_ARRAY_NUM = 12
@@ -77,7 +78,7 @@ class ChooseHour2ViewController: UIViewController, UIPickerViewDelegate, UIPicke
 
     //lblImageFileName 값저장
     @IBAction func sendNumber(_ sender: Any) {
-        UserDefaults.standard.setValue(lblImageFileName.text, forKey: "hello")    }
+        UserDefaults.standard.setValue(lblImageFileName.text, forKey: "health")    }
     
 
 

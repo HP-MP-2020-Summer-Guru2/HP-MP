@@ -8,6 +8,7 @@
 
 import UIKit
 
+// 두번째 탭 : 신체건강 탭
 class SecondViewController: UIViewController {
 
     // 각 View 이름 설정

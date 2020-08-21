@@ -8,7 +8,7 @@
 
 import UIKit
 
-
+// 수면 목표 시간을 pickerView로 설정하는 View
 class ChooseHourViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
     
     let MAX_ARRAY_NUM = 12
@@ -75,7 +75,7 @@ class ChooseHourViewController: UIViewController, UIPickerViewDelegate, UIPicker
     
     //lblImageFileName 값저장
     @IBAction func sendNumber2(_ sender: Any) {
-        UserDefaults.standard.setValue(lblImageFileName.text, forKey: "hi")
+        UserDefaults.standard.setValue(lblImageFileName.text, forKey: "sleep")
     }
     
     //dismiss 버튼

@@ -8,6 +8,7 @@
 
 import UIKit
 
+// 세번째 탭 : 정신건강 탭
 class ThirdViewController: UIViewController {
 
     @IBOutlet var mainView: UIView! //메인 뷰(첫화면)

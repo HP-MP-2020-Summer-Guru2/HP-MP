@@ -231,7 +231,7 @@
 		E3FEE8E424F027E200BA35B0 /* 사각형 154.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "사각형 154.png"; sourceTree = "<group>"; };
 		E3FEE8E524F027E200BA35B0 /* AppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon.png; sourceTree = "<group>"; };
 		E3FEE8E624F027E200BA35B0 /* Asset 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Asset 3.png"; sourceTree = "<group>"; };
-		E3FEE8E724F027E200BA35B0 /* 사각형 32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "사각형 32.png"; sourceTree = "<group>"; };
+		E3FEE8E724F027E200BA35B0 /* 사각형 32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "사각형 32.png"; path = "../BodyImage/사각형 32.png"; sourceTree = "<group>"; };
 		E3FEE8E824F027E200BA35B0 /* Asset 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Asset 4.png"; sourceTree = "<group>"; };
 		E3FEE8E924F027E200BA35B0 /* Asset 101.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Asset 101.png"; sourceTree = "<group>"; };
 		E3FEE8EA24F027E300BA35B0 /* Asset 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Asset 2.png"; sourceTree = "<group>"; };
@@ -484,7 +484,6 @@
 			isa = PBXGroup;
 			children = (
 				E3FEE8ED24F027E300BA35B0 /* 등운동.png */,
-				E3FEE8E724F027E200BA35B0 /* 사각형 32.png */,
 				E3FEE8F124F027E300BA35B0 /* 사각형 33.png */,
 				E3FEE8EF24F027E300BA35B0 /* 사각형 135.png */,
 				E3FEE8E324F027E200BA35B0 /* 사각형 136.png */,
@@ -514,6 +513,7 @@
 				E3FEE8BC24F0279800BA35B0 /* 1Board_BestButton@2x.png */,
 				E3FEE8C624F0279900BA35B0 /* 1Board_ButtonBar@2x.png */,
 				E3FEE8BB24F0279800BA35B0 /* 1Board_NewButton@2x.png */,
+				E3FEE8E724F027E200BA35B0 /* 사각형 32.png */,
 				E3FEE8C124F0279800BA35B0 /* 1Board_Post@2x.png */,
 				E3FEE8B724F0279800BA35B0 /* 1Board_ProfilIcon@2x.png */,
 				E3FEE8C524F0279900BA35B0 /* 1Board_recommendIcon@2x.png */,

@@ -9,7 +9,7 @@
 import UIKit
 import Firebase
 
-
+// 네번째 탭 : 게시판 탭
 class BoardViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     // 파이어베이스 데이터베이스 연결
@@ -71,7 +71,7 @@ class BoardViewController: UIViewController, UITableViewDataSource, UITableViewD
     
     
     // 글쓰기 버튼
-    @IBAction func write(_ sender: Any) {
+    @IBAction func writeButton(_ sender: Any) {
         // WriteView로 넘어감
         performSegue(withIdentifier: "showWrite", sender: (Any).self)
     }

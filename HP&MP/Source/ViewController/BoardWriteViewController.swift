@@ -9,6 +9,7 @@
 import UIKit
 import Firebase
 
+// 글 작성 뷰
 class BoardWriteViewController: UIViewController {
 
     // 파이어베이스 데이터 연결

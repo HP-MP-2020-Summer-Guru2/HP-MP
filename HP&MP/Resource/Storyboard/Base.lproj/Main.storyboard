@@ -978,7 +978,7 @@
                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large"/>
                                 </state>
                                 <connections>
-                                    <action selector="write:" destination="JjT-5z-coL" eventType="touchUpInside" id="C5s-nN-Wd6"/>
+                                    <action selector="writeButton:" destination="JjT-5z-coL" eventType="touchUpInside" id="C5s-nN-Wd6"/>
                                 </connections>
                             </button>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="70" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="s4U-on-tc1">
@@ -1956,7 +1956,7 @@
         <image name="water_2.png" width="350.8800048828125" height="418.32000732421875"/>
         <image name="water_3surroundingLine.png" width="252.24000549316406" height="252.24000549316406"/>
         <image name="yoga.png" width="362" height="194"/>
-        <image name="사각형 136.png" width="74" height="40"/>
+        <image name="사각형 136.png" width="73.5" height="39.5"/>
         <image name="사각형 140.png" width="414.5" height="93.5"/>
         <image name="사각형 154.png" width="87.5" height="38.5"/>
         <image name="사각형 32.png" width="87.5" height="38.5"/>
