@@ -25,7 +25,7 @@ class BoardDetailViewController: UIViewController{
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        // 살려줘
 
     }
     
