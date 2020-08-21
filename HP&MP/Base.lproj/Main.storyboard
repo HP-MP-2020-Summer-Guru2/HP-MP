@@ -280,7 +280,7 @@
             <objects>
                 <viewController id="0aC-R3-FRg" customClass="ChooseHourViewController" customModule="HP_MP" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kOG-zJ-cYn">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Home2Background.png" translatesAutoresizingMaskIntoConstraints="NO" id="k8E-YL-vi6">

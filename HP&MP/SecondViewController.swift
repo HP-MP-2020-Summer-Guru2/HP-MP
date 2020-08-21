@@ -10,7 +10,7 @@ import UIKit
 
 class SecondViewController: UIViewController {
 
-    
+    // 각 View 이름 설정
     @IBOutlet var mainView: UIView!
     @IBOutlet var muscleView: UIView!
     @IBOutlet var gameView: UIView!
@@ -18,6 +18,7 @@ class SecondViewController: UIViewController {
     @IBOutlet var stretchView: UIView!
     @IBOutlet var scrollView: UIScrollView!
     
+    // 배경이미지 지정 및 메인 뷰 외에 다른 뷰 숨김
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor(patternImage: UIImage(named: "background.png")!)
@@ -31,7 +32,7 @@ class SecondViewController: UIViewController {
     
     
     
-    
+    // 버튼 클릭시 지정한 URL로 이동
     @IBAction func aerobicButton(_ sender: UIButton) {
    guard let url = URL(string: "https://youtu.be/lKwZ2DU4P-A"), UIApplication.shared.canOpenURL(url) else { return }
            UIApplication.shared.open(url, options: [:], completionHandler: nil)
@@ -74,7 +75,7 @@ class SecondViewController: UIViewController {
     
     
     
-    
+    // 주제별 모음 구현: 선택한 키워드에 해당하는 뷰말고 다른 뷰 모두 숨김
     @IBAction func chooseAerobic(_ sender: UIButton) {
         aerobicView.isHidden = false
         stretchView.isHidden = true

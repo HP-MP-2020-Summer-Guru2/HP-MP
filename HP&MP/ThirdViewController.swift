@@ -56,7 +56,7 @@ class ThirdViewController: UIViewController {
         guard let url = URL(string: "https://youtu.be/6A-XJ4UgJjg"), UIApplication.shared.canOpenURL(url) else { return }
         UIApplication.shared.open(url, options: [:], completionHandler: nil)
     }
-    @IBAction func chooseSleep(_ sender: UIButton) { // 키워드 검색 구현: 선택한 키워드에 해당하는 뷰말고 다른 뷰 모두 숨김
+    @IBAction func chooseSleep(_ sender: UIButton) { // 주제별 모음 구현: 선택한 키워드에 해당하는 뷰말고 다른 뷰 모두 숨김
         sleepView.isHidden = false
         scrollView.isHidden = true
         timeView.isHidden = true
