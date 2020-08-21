@@ -62,6 +62,7 @@ class BoardViewController: UIViewController, UITableViewDataSource, UITableViewD
     
     // UITableViewDelegate : 셀 클릭 시 동작 설정
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        clikcedCell = indexPath.row
         // 해당 글 DetailView로 넘어감
         performSegue(withIdentifier: "showDetail", sender: indexPath.row)
     }
