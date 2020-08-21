@@ -83,22 +83,38 @@ class FirstViewController: UIViewController, UIImagePickerControllerDelegate, UI
     }
     
     
-//    override func viewDidAppear(_ animated: Bool) {
-//        imageHolder2.image = finalSend
-//        print("성공")
-//    }
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-            
-        enterLabel.text = finalSend
-        enterLabel2.text = finalSend2
-
-
+    @IBAction func SleepButton(_ sender: Any) {
+        guard let HourPush = self.storyboard?.instantiateViewController(identifier: "ChooseHourViewController") as? ChooseHourViewController else {return}
+        
+        self.navigationController?.pushViewController(HourPush, animated: true)
     }
-
-
     
+    @IBAction func ExerciseButton(_ sender: Any) {
+        guard let HourPush2 = self.storyboard?.instantiateViewController(identifier: "ChooseHour2ViewController") as? ChooseHour2ViewController else {return}
+        
+        self.navigationController?.pushViewController(HourPush2, animated: true)
+    }
+    
+
+        
+    override func viewDidLoad() {
+        
+        UserDefaults.standard.setValue(0, forKey: "hi")
+        UserDefaults.standard.setValue(0, forKey: "hello")
+        
+        self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: UIBarMetrics.default)
+        
+        self.navigationController?.navigationBar.shadowImage = UIImage()
+        self.navigationController?.navigationBar.isTranslucent = true
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+
+       enterLabel2.text = UserDefaults.standard.object(forKey: "hi") as? String
+        
+       enterLabel.text = UserDefaults.standard.object(forKey: "hello") as? String
+        
+    }
     
     
     

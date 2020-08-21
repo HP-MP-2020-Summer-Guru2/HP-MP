@@ -38,7 +38,7 @@ class ChooseHour2ViewController: UIViewController, UIPickerViewDelegate, UIPicke
         imageView.image = imageArray[0]
     }
   
-
+    //피커뷰 컴포넌트 수 설정
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return PICKER_VIEW_COLUMN
     }
@@ -71,24 +71,15 @@ class ChooseHour2ViewController: UIViewController, UIPickerViewDelegate, UIPicke
     
     @IBAction func dismissThirdVC(_ sender: Any) {
 
-        
-    self.dismiss(animated: true, completion: nil)
+        self.navigationController?.popViewController(animated: true)
 
     }
 
     
     @IBAction func sendNumber(_ sender: Any) {
-        self.numberText = lblImageFileName.text!
-        performSegue(withIdentifier: "sendtext", sender: self)
-    }
+        UserDefaults.standard.setValue(lblImageFileName.text, forKey: "hello")    }
     
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let vc = segue.destination as! FirstViewController
-        vc.finalSend = self.numberText
- 
-    }
 
-    
 
     /*
     // MARK: - Navigation
