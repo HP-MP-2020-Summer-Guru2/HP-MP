@@ -7,12 +7,12 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--홈-->
+        <!--First View Controller-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
                 <viewController restorationIdentifier="FirstViewController" storyboardIdentifier="FirstViewController" id="9pv-A4-QxB" customClass="FirstViewController" customModule="HP_MP" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="HomeBackgroung.png" translatesAutoresizingMaskIntoConstraints="NO" id="Pjb-2k-7zQ">
@@ -116,7 +116,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="생수 한 병(500ml) 기준으로 클릭" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xFc-ff-6cY">
-                                <rect key="frame" x="104" y="421" width="164" height="13"/>
+                                <rect key="frame" x="104" y="421" width="164" height="15"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="12"/>
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -137,7 +137,7 @@
                                     <color key="titleColor" systemColor="systemGrayColor" red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="SRH-Mr-0Nw" kind="presentation" id="g57-Ig-kRg"/>
+                                    <action selector="ExerciseButton:" destination="9pv-A4-QxB" eventType="touchUpInside" id="eNl-Hu-paC"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0C5-xt-V2K">
@@ -154,7 +154,7 @@
                                     <color key="titleColor" systemColor="systemGrayColor" red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="0aC-R3-FRg" kind="presentation" id="n7K-93-PfR"/>
+                                    <action selector="SleepButton:" destination="9pv-A4-QxB" eventType="touchUpInside" id="l8e-WX-Fau"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="입력" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OGs-7A-9tK">
@@ -175,7 +175,6 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="PQr-Ze-W5v"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="홈" image="house.fill" catalog="system" id="acW-dT-cKf"/>
                     <navigationItem key="navigationItem" id="FVh-J9-p4e"/>
                     <connections>
                         <outlet property="ExerciseButton" destination="ciN-eo-4T6" id="kap-dP-YaV"/>
@@ -190,14 +189,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="746.39999999999998" y="-713.79310344827593"/>
+            <point key="canvasLocation" x="1688.8" y="-713.79310344827593"/>
         </scene>
         <!--Choose Hour2 View Controller-->
         <scene sceneID="QY3-5q-jiD">
             <objects>
-                <viewController id="SRH-Mr-0Nw" customClass="ChooseHour2ViewController" customModule="HP_MP" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController restorationIdentifier="ChooseHour2ViewController" storyboardIdentifier="ChooseHour2ViewController" id="SRH-Mr-0Nw" customClass="ChooseHour2ViewController" customModule="HP_MP" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="x2c-ka-qL0">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Home2Background.png" translatesAutoresizingMaskIntoConstraints="NO" id="yr0-e6-AE9">
@@ -211,7 +210,7 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BZu-ih-gIV">
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BZu-ih-gIV">
                                 <rect key="frame" x="322" y="20" width="37" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="exit.png"/>
@@ -244,13 +243,6 @@
                                 <rect key="frame" x="117" y="515" width="160" height="160"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="설정" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JXi-qJ-tZ9">
-                                <rect key="frame" x="173.05158461140968" y="615" width="28" height="20"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
-                                <color key="textColor" red="0.47941035030000001" green="0.6529175639" blue="0.92552268510000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9WW-ia-lk8">
                                 <rect key="frame" x="137.10619268620712" y="575" width="99.999999999999773" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -259,6 +251,13 @@
                                     <action selector="sendNumber:" destination="SRH-Mr-0Nw" eventType="touchUpInside" id="wh0-xl-4Q3"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="설정" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JXi-qJ-tZ9">
+                                <rect key="frame" x="173" y="615" width="28" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                <color key="textColor" red="0.47941035030000001" green="0.6529175639" blue="0.92552268510000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="tQu-d5-V2O"/>
@@ -268,17 +267,16 @@
                         <outlet property="imageView" destination="DEm-Gg-KxE" id="h8Y-Mr-KCp"/>
                         <outlet property="lblImageFileName" destination="HPP-Lr-JVw" id="GoV-Cc-M29"/>
                         <outlet property="pickerHour" destination="rBh-sI-LXy" id="UGI-Ux-u0K"/>
-                        <segue destination="9pv-A4-QxB" kind="show" identifier="sendtext" id="xN7-ft-OqV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qoe-Lb-o92" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1689" y="-374"/>
+            <point key="canvasLocation" x="2631.1999999999998" y="-374.6305418719212"/>
         </scene>
         <!--Choose Hour View Controller-->
         <scene sceneID="qIs-tm-QGy">
             <objects>
-                <viewController id="0aC-R3-FRg" customClass="ChooseHourViewController" customModule="HP_MP" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController restorationIdentifier="ChooseHourViewController" storyboardIdentifier="ChooseHourViewController" id="0aC-R3-FRg" customClass="ChooseHourViewController" customModule="HP_MP" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kOG-zJ-cYn">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -319,12 +317,12 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uGU-Ve-2tv">
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uGU-Ve-2tv">
                                 <rect key="frame" x="322" y="20" width="37" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="exit.png"/>
                                 <connections>
-                                    <action selector="dismissSecondVC:didSelectRow:" destination="0aC-R3-FRg" eventType="touchUpInside" id="y6m-zm-RKh"/>
+                                    <action selector="dismissSecondVC:" destination="0aC-R3-FRg" eventType="touchUpInside" id="olg-bJ-S85"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g9K-iT-q0Z">
@@ -351,12 +349,11 @@
                         <outlet property="imageView" destination="deq-99-aAt" id="uBu-2X-Lcd"/>
                         <outlet property="lblImageFileName" destination="0CQ-MF-wOu" id="Agj-Al-eIb"/>
                         <outlet property="pickerHour" destination="aYL-aA-lyA" id="7sU-aC-Ugg"/>
-                        <segue destination="9pv-A4-QxB" kind="show" identifier="sendText2" id="C0H-u3-hdy"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pE8-I3-RTQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1602" y="-1141"/>
+            <point key="canvasLocation" x="2543.1999999999998" y="-1141.6256157635469"/>
         </scene>
         <!--멘탈-->
         <scene sceneID="Y8F-gw-c0q">
@@ -1886,7 +1883,7 @@
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBar>
                     <connections>
-                        <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
+                        <segue destination="2Zd-Dt-0KN" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
                         <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
                         <segue destination="sHT-AB-I9B" kind="relationship" relationship="viewControllers" id="dYd-j0-jzT"/>
                         <segue destination="JjT-5z-coL" kind="relationship" relationship="viewControllers" id="fXU-1T-hWG"/>
@@ -1896,10 +1893,26 @@
             </objects>
             <point key="canvasLocation" x="0.0" y="0.0"/>
         </scene>
+        <!--홈-->
+        <scene sceneID="nbc-yZ-k0n">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="2Zd-Dt-0KN" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="홈" image="house.fill" catalog="system" id="acW-dT-cKf"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="8aI-mN-Vcc">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="9pv-A4-QxB" kind="relationship" relationship="rootViewController" id="l0N-3a-ldi"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="thg-IH-QI1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="746.39999999999998" y="-713.79310344827593"/>
+        </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="C0H-u3-hdy"/>
-    </inferredMetricsTieBreakers>
     <resources>
         <image name="1Board_Background.png" width="363" height="684.5"/>
         <image name="1Board_ProfilIcon.png" width="26.5" height="26.5"/>
