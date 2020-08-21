@@ -15,7 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        sleep(2)    // 스플래시화면 2초 지연
+        sleep(5)    // 스플래시화면 2초 지연
         // Override point for customization after application launch.
         FirebaseApp.configure()
         return true

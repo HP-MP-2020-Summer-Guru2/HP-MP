@@ -109,6 +109,7 @@
 		E33D3DEF24EF939A00FB7453 /* 3Board_RecommendButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E33D3DD924EF939A00FB7453 /* 3Board_RecommendButton@2x.png */; };
 		E33D3DF024EF939A00FB7453 /* 2Board_CloseButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E33D3DDA24EF939A00FB7453 /* 2Board_CloseButton@2x.png */; };
 		E33D3DF124EF939A00FB7453 /* 1Board_Post@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E33D3DDB24EF939A00FB7453 /* 1Board_Post@2x.png */; };
+		E33D3DF324EFC3B600FB7453 /* Asset 23@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E33D3DF224EFC3B500FB7453 /* Asset 23@3x.png */; };
 		EE6A2ECCA2876E2D1F6E0BA1 /* Pods_HP_MPTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D49CE6DA12DD6BD0E202D1B /* Pods_HP_MPTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -244,6 +245,7 @@
 		E33D3DD924EF939A00FB7453 /* 3Board_RecommendButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3Board_RecommendButton@2x.png"; sourceTree = "<group>"; };
 		E33D3DDA24EF939A00FB7453 /* 2Board_CloseButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2Board_CloseButton@2x.png"; sourceTree = "<group>"; };
 		E33D3DDB24EF939A00FB7453 /* 1Board_Post@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1Board_Post@2x.png"; sourceTree = "<group>"; };
+		E33D3DF224EFC3B500FB7453 /* Asset 23@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Asset 23@3x.png"; path = "Assets.xcassets/Asset 23@3x.png"; sourceTree = "<group>"; };
 		EC9FD952901E8C13F12082A4 /* Pods-HP&MP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HP&MP.release.xcconfig"; path = "Target Support Files/Pods-HP&MP/Pods-HP&MP.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -325,6 +327,7 @@
 				1554BD8B24E6DC7200DF095E /* SecondViewController.swift */,
 				1554BD8D24E6DC7200DF095E /* Main.storyboard */,
 				1554BD9024E6DC7200DF095E /* Assets.xcassets */,
+				E33D3DF224EFC3B500FB7453 /* Asset 23@3x.png */,
 				1554BD9224E6DC7200DF095E /* LaunchScreen.storyboard */,
 				1554BD9524E6DC7200DF095E /* Info.plist */,
 				1554BDB724E6E34500DF095E /* BoardViewController.swift */,
@@ -661,6 +664,7 @@
 				E240EB4A24ED90C5003DD89E /* plusButton.png in Resources */,
 				E33D3DE324EF939A00FB7453 /* 1Board_background1@2x.png in Resources */,
 				E33D3D5A24EF805D00FB7453 /* 사각형 136.png in Resources */,
+				E33D3DF324EFC3B600FB7453 /* Asset 23@3x.png in Resources */,
 				E240EB0324EC2F79003DD89E /* background_water.png in Resources */,
 				E240EB6724EE540D003DD89E /* hideWaterFLowBackground.png in Resources */,
 				E33D3DE124EF939A00FB7453 /* 3Board_Line@2x.png in Resources */,
