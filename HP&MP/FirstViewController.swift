@@ -82,13 +82,13 @@ class FirstViewController: UIViewController, UIImagePickerControllerDelegate, UI
         
     }
     
-    
+    //수면 목표량 설정 들어가기
     @IBAction func SleepButton(_ sender: Any) {
         guard let HourPush = self.storyboard?.instantiateViewController(identifier: "ChooseHourViewController") as? ChooseHourViewController else {return}
         
         self.navigationController?.pushViewController(HourPush, animated: true)
     }
-    
+    //운동 목표량 설정 들어가기
     @IBAction func ExerciseButton(_ sender: Any) {
         guard let HourPush2 = self.storyboard?.instantiateViewController(identifier: "ChooseHour2ViewController") as? ChooseHour2ViewController else {return}
         
@@ -96,7 +96,7 @@ class FirstViewController: UIViewController, UIImagePickerControllerDelegate, UI
     }
     
 
-        
+    
     override func viewDidLoad() {
         
         UserDefaults.standard.setValue(0, forKey: "hi")
@@ -108,6 +108,7 @@ class FirstViewController: UIViewController, UIImagePickerControllerDelegate, UI
         self.navigationController?.navigationBar.isTranslucent = true
     }
     
+    //수면, 운동 값들 label에 전달받기
     override func viewWillAppear(_ animated: Bool) {
 
        enterLabel2.text = UserDefaults.standard.object(forKey: "hi") as? String

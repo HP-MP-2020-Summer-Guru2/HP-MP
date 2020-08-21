@@ -68,27 +68,18 @@ class ChooseHour2ViewController: UIViewController, UIPickerViewDelegate, UIPicke
         
     }
     
-    
+    //dismiss 버튼
     @IBAction func dismissThirdVC(_ sender: Any) {
 
         self.navigationController?.popViewController(animated: true)
 
     }
 
-    
+    //lblImageFileName 값저장
     @IBAction func sendNumber(_ sender: Any) {
         UserDefaults.standard.setValue(lblImageFileName.text, forKey: "hello")    }
     
 
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

@@ -73,21 +73,17 @@ class ChooseHourViewController: UIViewController, UIPickerViewDelegate, UIPicker
         
     }
     
-    //버튼 눌러 값 전달
+    //lblImageFileName 값저장
     @IBAction func sendNumber2(_ sender: Any) {
         UserDefaults.standard.setValue(lblImageFileName.text, forKey: "hi")
     }
     
-    
+    //dismiss 버튼
     @IBAction func dismissSecondVC(_ sender: AnyObject) {
         self.navigationController?.popViewController(animated: true)
     }
 
-//       override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-//           let vc = segue.destination as! FirstViewController
-//           vc.finalSend2 = self.numberText2
-//
-//       }
+
   
 }
 
