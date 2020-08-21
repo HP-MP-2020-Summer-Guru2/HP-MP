@@ -30,6 +30,7 @@ class ChooseHourViewController: UIViewController, UIPickerViewDelegate, UIPicker
         dismissButton.layer.cornerRadius = dismissButton.frame.size.width / 2
 
         // Do any additional setup after loading the view.
+        //0부터 MAX까지 루프 실행
         for i in 0 ..< MAX_ARRAY_NUM {
             let image = UIImage(named: imageFileName[i])
             imageArray.append(image)
@@ -72,22 +73,21 @@ class ChooseHourViewController: UIViewController, UIPickerViewDelegate, UIPicker
         
     }
     
+    //버튼 눌러 값 전달
     @IBAction func sendNumber2(_ sender: Any) {
-        self.numberText2 = lblImageFileName.text!
-        performSegue(withIdentifier: "sendText2", sender: self)
+        UserDefaults.standard.setValue(lblImageFileName.text, forKey: "hi")
     }
     
     
     @IBAction func dismissSecondVC(_ sender: AnyObject) {
-        self.dismiss(animated: true, completion: nil)
-        
+        self.navigationController?.popViewController(animated: true)
     }
 
-       override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-           let vc = segue.destination as! FirstViewController
-           vc.finalSend2 = self.numberText2
-    
-       }
+//       override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//           let vc = segue.destination as! FirstViewController
+//           vc.finalSend2 = self.numberText2
+//
+//       }
   
 }
 
