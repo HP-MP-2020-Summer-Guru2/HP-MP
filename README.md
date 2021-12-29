@@ -24,7 +24,7 @@
 ### 팀원 역할 및 소개
 - 박예빈(팀장) [ Repo ](https://github.com/beansbin) : 서울여자대학교 소프트웨어융합학과 18, 게시판 tab(파이어베이스 이용) 개발 담당<br>
 - 명유진 [ Repo ](https://github.com/Yujin-m) : 서울여자대학교 디지털미디어학과 18, 게시판 및 홈화면 목표 시간 설정과 전반적인 디자인 수정 담당, 신체 건강 tab 개발 담당<br>
-- 윤영서 [ Repo ](https://github.com/realwhyjay) : 
+- 윤영서 [ Repo ](https://github.com/yys88699) : 
 서울여자대학교 디지털미디어학과 18, 전반적인 홈화면/신체&정신건강 탭 디자인 담당, 홈 화면 개발 담당
 - 최은주 [ Repo ](https://github.com/jane1choi) : 서울여자대학교 디지털미디어학과 18, 정신 건강 tab 개발 담당
 - 김민희(어드바이저) [ Repo ](https://github.com/xwoud) : 서울여자대학교 정보보호학과 17, 오류 코드 수정 및 코드 최적화, 멘토 담당
